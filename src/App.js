@@ -9,26 +9,31 @@ function App() {
           <img src="./text-ethboston.png" alt="title" className="h-12" />
         </article>
       </section>
-      {/* Dates and location info */ }
-      <section className="flex items-center justify-around">
-        <article className="flex items-center justify-center">
-          <img src="./calendar.svg" alt="Dates" />
-          <span className="text-lg ml-2">April 7-9 2023</span>
-        </article>
-        <article className="flex items-center justify-center">
-          <img src="./map-pin.svg" alt="Dates" />
-          <span className="text-lg ml-2">Revere Hotel</span>
-        </article>
-      </section>
+      {/* Cover image */ }
       <section className="flex justify-center h-full items-center">
         <article className="p-5">
           <img src="./bg.png" alt="ETH Boston coming April 2023" className="rounded-lg border-2 border-black" />
         </article>
       </section>
-      {/* Twitter and email */ }
-      <section>
-        <article className="flex items-center justify-around">
-          <a href="https://twitter.com/ETHBoston" target="_blank" rel="noreferrer" className="flex items-center  text-xl rounded-lg border-2 border-black px-4 py-2 hover:bg-gray-100">Twitter<img src="./twitter.svg" alt="Twitter icon" className="ml-2" /></a>
+      {/* Below image */ }
+      <section className="flex justify-center">
+        <article className="flex items-center justify-around p-5 w-full sm:w-2/3">
+          {/* Twitter */ }
+          <a href="https://twitter.com/ETHBoston" target="_blank" rel="noreferrer" className="flex items-center  text-xl rounded-lg border-2 border-black px-4 py-2 hover:bg-sky-100">Twitter<img src="./twitter.svg" alt="Twitter icon" className="ml-2" /></a>
+          {/* Date and Location */ }
+          <div className="flex items-center rounded-full border justify-between w-96 bg-gradient-to-r from-gray-100 to-sky-100">
+            <article className="flex items-center justify-center">
+              <span className="rounded-full border p-2 bg-sky-100"><img src="./calendar.svg" alt="Dates" /></span>
+              <span className="text-xl mx-2 font-semibold">April 7-9 2023</span>
+            </article>
+            <article className="flex items-center justify-center">
+              <span className="text-xl mx-2 font-semibold">Revere Hotel</span>
+              <span className="rounded-full border p-2 bg-gray-100">
+                <img src="./map-pin.svg" alt="Dates" />
+              </span>
+            </article>
+          </div>
+          {/* Email */ }
           <a href="mailto:sponsor@ethboston.xyz" target="_blank" rel="noreferrer" className="flex items-center  text-xl rounded-lg border-2 border-black px-4 py-2 hover:bg-gray-100">Inquire<img src="./mail.svg" alt="Twitter icon" className="ml-2" /></a>
         </article>
       </section>
