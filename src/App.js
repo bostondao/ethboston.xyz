@@ -6,10 +6,10 @@ function App() {
       <section className="max-w-full p-5">
         <article>
           <div className="flex justify-center">
-            <img src="./logo.svg" alt="ETH boston logo" className="h-48 my-4" />
+            <img src="./logo.svg" alt="ETH boston logo" className="h-32 sm:h-48 my-4" />
           </div>
           <div className="flex justify-center">
-            <img src="./text-ethboston.png" alt="title" className="h-24" />
+            <img src="./text-ethboston.png" alt="title" className="h-12 sm:h-24" />
           </div>
         </article>
       </section>
@@ -18,10 +18,10 @@ function App() {
         <div className="flex items-center rounded-full border justify-between text-blue-1">
           <article className="flex items-center justify-center">
             <span className="rounded-full border p-2 m-1 bg-blue-2"><img src="./calendar.svg" alt="Dates" /></span>
-            <span className="text-2xl mx-2 pr-2 font-semibold">April 7-9 2023</span>
+            <span className="text-lg sm:text-2xl mx-2 pr-2 font-semibold">April 7-9 2023</span>
           </article>
           <article className="flex items-center justify-center">
-            <span className="text-2xl mx-2 pl-2 font-semibold">Revere Hotel</span>
+            <span className="text-lg sm:text-2xl mx-2 pl-2 font-semibold">Revere Hotel</span>
             <span className="rounded-full border p-2 m-1 bg-blue-2">
               <img src="./map-pin.svg" alt="Dates" />
             </span>
