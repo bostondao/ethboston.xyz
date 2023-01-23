@@ -52,20 +52,11 @@ function App() {
             speakers and panelists, technology specific workshops, networking events, and a
             hackathon.
           </p>
-          <p className="mb-4">ETHBoston is your opportunity to support, grow, and foster the development of the web3
-            ecosystem in Boston. Your sponsorship will build awareness among, and directly impact,
-            500-1000 developers, industry experts, advisers, investors, students, and companies
+          <p className="mb-4">ETHBoston is an opportunity to support, grow, and foster the development of the web3
+            ecosystem. The conference will build awareness among, and directly impact, 
+            developers, industry experts, advisers, investors, students, and companies
             who are creating the next generation of infrastructure and applications that will power the
             decentralized web.
-          </p>
-          <p className="mb-4">
-            You will meet developers face to face, have new and experienced developers build
-            with your product, have a global marketing presence, and onboard new users. You
-            will help support tenured developers with substantial protocol development experience
-            and eager creatives looking to join the space and build their first DApps.
-            Our event series has a proven track record of success, consistently attracts the top
-            minds in web3, has resulted in real companies, high quality product integrations,
-            code deployments, and exciting career matching for those searching.
           </p>
         </article>
       </section>
