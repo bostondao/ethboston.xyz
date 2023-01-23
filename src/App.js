@@ -18,10 +18,10 @@ function App() {
         <div className="flex items-center rounded-full border justify-between text-blue-1">
           <article className="flex items-center justify-center">
             <span className="rounded-full border p-2 m-1 bg-blue-2"><img src="./calendar.svg" alt="Dates" /></span>
-            <span className="text-lg sm:text-2xl mx-2 pr-2 font-semibold">April 7-9 2023</span>
+            <span className="text-lg sm:text-2xl mx-2 pr-2 font-semibold">April 28-30 2023</span>
           </article>
           <article className="flex items-center justify-center">
-            <span className="text-lg sm:text-2xl mx-2 pl-2 font-semibold">Revere Hotel</span>
+            <span className="text-lg sm:text-2xl mx-2 pl-2 font-semibold">595 Commonwealth Ave, Boston</span>
             <span className="rounded-full border p-2 m-1 bg-blue-2">
               <img src="./map-pin.svg" alt="Dates" />
             </span>
