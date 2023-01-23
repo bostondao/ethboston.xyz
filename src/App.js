@@ -18,7 +18,7 @@ function App() {
         <div className="flex items-center rounded-full border justify-between text-blue-1">
           <article className="flex items-center justify-center">
             <span className="rounded-full border p-2 m-1 bg-blue-2"><img src="./calendar.svg" alt="Dates" /></span>
-            <span className="text-lg sm:text-2xl mx-2 pr-2 font-semibold">April 28-30 2023</span>
+            <span className="text-lg sm:text-2xl mx-2 pr-2 font-semibold">April 29-30 2023</span>
           </article>
           <article className="flex items-center justify-center">
             <span className="text-lg sm:text-2xl mx-2 pl-2 font-semibold">595 Commonwealth Ave, Boston</span>
@@ -47,14 +47,14 @@ function App() {
       <section className="flex justify-center bg-sky-100 text-blue-1 text-lg">
         <article className="p-5 w-full sm:w-2/3">
           <p className="mb-4">ETHBoston and The Boston DAO are proud to present ETHBoston 2023 at the Revere
-            Hotel April 7-9 2023. We are excited about the return of this conference since the last
+            Hotel April 29-30 2023. We are excited about the return of this conference since the last
             ETHBoston conference in 2019. The in-person conference will feature two stages of
             speakers and panelists, technology specific workshops, networking events, and a
             hackathon.
           </p>
           <p className="mb-4">ETHBoston is your opportunity to support, grow, and foster the development of the web3
             ecosystem in Boston. Your sponsorship will build awareness among, and directly impact,
-            1000 developers, industry experts, advisers, investors, students, and companies
+            500-1000 developers, industry experts, advisers, investors, students, and companies
             who are creating the next generation of infrastructure and applications that will power the
             decentralized web.
           </p>
