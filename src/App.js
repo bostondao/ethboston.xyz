@@ -46,8 +46,8 @@ function App() {
       {/* Description */ }
       <section className="flex justify-center bg-sky-100 text-blue-1 text-lg">
         <article className="p-5 w-full sm:w-2/3">
-          <p className="mb-4">ETHBoston and The Boston DAO are proud to present ETHBoston 2023 at the Revere
-            Hotel April 29-30 2023. We are excited about the return of this conference since the last
+          <p className="mb-4">ETHBoston and The Boston DAO are proud to present ETHBoston 2023, which will take place at 
+            Boston University April 29-30 2023. We are excited about the return of this conference since the last
             ETHBoston conference in 2019. The in-person conference will feature two stages of
             speakers and panelists, technology specific workshops, networking events, and a
             hackathon.
