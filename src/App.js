@@ -60,10 +60,10 @@ function App() {
           </p>
         </article>
       </section>
-      <footer className="flex justify-center text-2xl bg-sky-100 pb-10">
-        <a href="https://ethboston.typeform.com/waitlist" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold" >ATTEND</a>
-        <a href="https://ethboston.typeform.com/speakerproposal" target="_blank" rel="noreferrer" className="mx-6 px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold" >SPEAK</a>
-        <a href="https://ethboston.typeform.com/volunteer" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold" >VOLUNTEER</a>
+      <footer className="flex flex-col sm:flex-row justify-center text-2xl bg-sky-100 pb-10">
+        <a href="https://ethboston.typeform.com/waitlist" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold mx-6 text-center" >ATTEND</a>
+        <a href="https://ethboston.typeform.com/speakerproposal" target="_blank" rel="noreferrer" className="mx-6 px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold my-4 sm:my-0 text-center" >SPEAK</a>
+        <a href="https://ethboston.typeform.com/volunteer" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold mx-6 text-center" >VOLUNTEER</a>
       </footer>
     </main>
   );
