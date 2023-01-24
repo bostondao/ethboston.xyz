@@ -46,20 +46,25 @@ function App() {
       {/* Description */ }
       <section className="flex justify-center bg-sky-100 text-blue-1 text-lg">
         <article className="p-5 w-full sm:w-2/3">
-          <p className="mb-4">ETHBoston and The Boston DAO are proud to present ETHBoston 2023, which will take place at 
+          <p className="mb-4">ETHBoston and The Boston DAO are proud to present ETHBoston 2023, which will take place at
             Boston University April 29-30 2023. We are excited about the return of this conference since the last
             ETHBoston conference in 2019. The in-person conference will feature two stages of
             speakers and panelists, technology specific workshops, networking events, and a
             hackathon.
           </p>
           <p className="mb-4">ETHBoston is an opportunity to support, grow, and foster the development of the web3
-            ecosystem. The conference will build awareness among, and directly impact, 
+            ecosystem. The conference will build awareness among, and directly impact,
             developers, industry experts, advisers, investors, students, and companies
             who are creating the next generation of infrastructure and applications that will power the
             decentralized web.
           </p>
         </article>
       </section>
+      <footer className="flex justify-center text-2xl bg-sky-100 pb-10">
+        <a href="https://ethboston.typeform.com/waitlist" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold" >ATTEND</a>
+        <a href="https://ethboston.typeform.com/speakerproposal" target="_blank" rel="noreferrer" className="mx-6 px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold" >SPEAK</a>
+        <a href="https://ethboston.typeform.com/volunteer" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold" >VOLUNTEER</a>
+      </footer>
     </main>
   );
 }
