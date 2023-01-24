@@ -12,6 +12,9 @@ module.exports = {
         },
         light: {
           1: `#fcbd4b`
+        },
+        red: {
+          1: `#C62329`
         }
       }
     },
