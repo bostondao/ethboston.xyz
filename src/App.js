@@ -57,7 +57,7 @@ function App() {
             who are creating the next generation of infrastructure and applications that will power the
             decentralized web.
           </p>
-          <p className="mb-4">&copy; 2023 ETHBoston Inc - This is not an official ETHGlobal .</p>
+          <p className="mb-4">&copy; 2023 ETHBoston Inc - This is not an official ETHGlobal event.</p>
         </article>
       </section>
       <footer className="flex flex-col sm:flex-row justify-center text-2xl bg-sky-100 pb-10">
