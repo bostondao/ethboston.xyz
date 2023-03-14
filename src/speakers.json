@@ -1,0 +1,84 @@
+{
+    "speakers": [
+        {
+            "name": "Barbara Widholm",
+            "src": "Barbara_Widholm.jfif",
+            "company": "State Street"
+        },
+        {
+            "name": "Bennett Collen",
+            "src": "Bennett_Collen.jpeg",
+            "company": "Endstate"
+        },
+        {
+            "name": "Brandon Bailey",
+            "src": "Brandon_Bailey.jpg",
+            "company": "Galaxy"
+        },
+        {
+            "name": "Brian Fakhoury",
+            "src": "Brian_Fakhoury.jpeg",
+            "company": "Mechanism Capital"
+        },
+        {
+            "name": "Christine Kim",
+            "src": "Christine_Kim.jpg",
+            "company": "Galaxy"
+        },
+        {
+            "name": "Dan Matuszewski",
+            "src": "Dan_Matuszewski.png",
+            "company": "CMS Holdings"
+        },
+        {
+            "name": "David Micley",
+            "src": "David_Micley.jpeg",
+            "company": "Wintermute"
+        },
+        {
+            "name": "Giuseppe Stutto",
+            "src": "Giuseppe_Stutto.jpg",
+            "company": "186 Ventures"
+        },
+        {
+            "name": "Jake Lynch",
+            "src": "Jake_Lynch.jpg",
+            "company": "L1D"
+        },
+        {
+            "name": "James Prestwich",
+            "src": "James_Prestwich.jpeg",
+            "company": "Nomad"
+        },
+        {
+            "name": "Kenny Li",
+            "src": "Kenny_Li.jpg",
+            "company": "Manta Network"
+        },
+        {
+            "name": "Matt Walsh",
+            "src": "Matt_Walsh.jpg",
+            "company": "Castle Island Ventures"
+        },
+        {
+            "name": "Maxwell Lyman",
+            "src": "Maxwell_Lyman.jpg",
+            "company": "Solon Labs"
+        },
+        {
+            "name": "Seth Priebatsch",
+            "src": "Seth_Priebatsch.jpg",
+            "company": "Groma"
+        },
+        {
+            "name": "Sheila Lirio Marcelo",
+            "src": "Sheila_Lirio_Marcelo.jpg",
+            "company": "Proof of Learn"
+        },
+        {
+            "name": "Steve Flanagan",
+            "src": "Steve_Flanagan.jpg",
+            "company": "Figment"
+        }
+    ]   
+}

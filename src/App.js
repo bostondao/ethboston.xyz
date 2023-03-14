@@ -1,5 +1,7 @@
+import SpeakerCard from "./components/SpeakerCard";
 
 function App() {
+  const speakerList = require(`./speakers.json`);
   return (
     <main style={ { backgroundColor: `rgba(252, 189, 75, .1)` } }>
       {/* Logo, header, image */ }
@@ -44,7 +46,7 @@ function App() {
         </article>
       </section>
       {/* Description */ }
-      <section className="flex justify-center bg-sky-100 text-blue-1 text-lg">
+      <section className="flex justify-center bg-sky-100 text-blue-1 text-lg pt-10">
         <article className="p-5 w-full sm:w-2/3">
           <p className="mb-4">ETHBoston and The Boston DAO are proud to present ETHBoston 2023 at Boston University April 29-30 2023. We are excited about the return of this conference since the last
             ETHBoston conference in 2019. The in-person conference will feature two stages of
@@ -60,12 +62,23 @@ function App() {
           <p className="mb-4">&copy; 2023 ETHBoston Inc - This is not an official ETHGlobal event.</p>
         </article>
       </section>
-      { /* Footer */ }
-      <footer className="flex flex-col sm:flex-row justify-center text-2xl bg-sky-100 pb-10">
+      { /* CTAs */ }
+      <section className="flex flex-col sm:flex-row justify-center text-2xl bg-sky-100 pb-10">
         <a href="https://ethboston.typeform.com/waitlist" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold mx-6 text-center" >ATTEND</a>
         <a href="https://ethboston.typeform.com/speakerproposal" target="_blank" rel="noreferrer" className="mx-6 px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold my-4 sm:my-0 text-center" >SPEAK</a>
         <a href="https://ethboston.typeform.com/volunteer" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold mx-6 text-center" >VOLUNTEER</a>
-      </footer>
+      </section>
+      {/* Speakers */}
+      <section className="py-10">
+        <div className="flex justify-center">
+          <img src="./speakers/text-speakers.png" alt="Speaker text" />
+        </div>
+        <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-10">
+          { speakerList.speakers.map(s => {
+            return (<SpeakerCard name={s.name} imgSrc={s.src} company={s.company} key={s.name} />)
+          })}
+        </article>
+      </section>
     </main>
   );
 }
