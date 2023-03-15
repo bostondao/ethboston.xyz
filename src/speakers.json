@@ -36,6 +36,11 @@
             "company": "Wintermute"
         },
         {
+            "name": "Eric Siu",
+            "src": "Eric_Siu.jpeg",
+            "company": "Cryptoshire"
+        },
+        {
             "name": "Giuseppe Stutto",
             "src": "Giuseppe_Stutto.jpg",
             "company": "186 Ventures"
@@ -54,6 +59,11 @@
             "name": "Kenny Li",
             "src": "Kenny_Li.jpg",
             "company": "Manta Network"
+        },
+        {
+            "name": "MacLane Wilkison",
+            "src": "MacLane_Wilkison.jpeg",
+            "company": "NuCypher"
         },
         {
             "name": "Matt Walsh",
@@ -79,6 +89,11 @@
             "name": "Steve Flanagan",
             "src": "Steve_Flanagan.jpg",
             "company": "Figment"
+        },
+        {
+            "name": "Spencer Brody",
+            "src": "Spencer_Brody.jpg",
+            "company": "Ceramic"
         }
     ]   
 }
