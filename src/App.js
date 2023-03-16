@@ -41,7 +41,6 @@ const walletButtonTheme = lightTheme({
 });
 
 function App() {
-  const speakerList = require(`./speakers.json`);
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains} theme={walletButtonTheme}>
