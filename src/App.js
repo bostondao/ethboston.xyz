@@ -11,7 +11,7 @@ import { alchemyProvider } from 'wagmi/providers/alchemy';
 import { publicProvider } from 'wagmi/providers/public';
 import { Claim } from './pages/Claim'
 import { Home } from './pages/Home'
-import { Navbar } from './Components/Navbar';
+import { Navbar } from './components/Navbar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 const { chains, provider } = configureChains(
@@ -41,6 +41,7 @@ const walletButtonTheme = lightTheme({
 });
 
 function App() {
+  const speakerList = require(`./speakers.json`);
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider chains={chains} theme={walletButtonTheme}>

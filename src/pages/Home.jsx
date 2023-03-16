@@ -1,6 +1,8 @@
 import React from 'react';
+import SpeakerCard from '../components/SpeakerCard';
 
 export const Home = () => {
+  const speakerList = require(`../speakers.json`);
   return (
     <>
       {/* Logo, header, image */}
@@ -67,6 +69,17 @@ export const Home = () => {
         <a href="https://ethboston.typeform.com/speakerproposal" target="_blank" rel="noreferrer" className="mx-6 px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold my-4 sm:my-0 text-center" >SPEAK</a>
         <a href="https://ethboston.typeform.com/volunteer" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold mx-6 text-center" >VOLUNTEER</a>
       </footer>
+      {/* Speakers */}
+      <section className="py-10">
+        <div className="flex justify-center">
+          <img src="./speakers/text-speakers.png" alt="Speaker text" />
+        </div>
+        <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-10">
+          {speakerList.speakers.map(s => {
+            return (<SpeakerCard name={s.name} imgSrc={s.src} company={s.company} key={s.name} />)
+          })}
+        </article>
+      </section>
     </>
   );
 };
