@@ -25,7 +25,7 @@ export const Claim = () => {
             </div>
           </div>
           <div className="col-span-12 lg:col-span-2">
-            <div className="rounded overflow-hidden shadow-lg bg-white">
+            <div className="rounded overflow-hidden shadow-lg bg-white pb-8">
               <div className="px-6 py-4">
                 <div className="font-bold text-xl mb-2">Airdrop Avaliability</div>
               </div>
@@ -35,10 +35,11 @@ export const Claim = () => {
                   Follow our offical Twitter page for information on the airdrop
                 </p>
                 <a href="https://twitter.com/ETHBoston" className="inline"> @ETHBoston</a>
-                <p className="text-gray-700 text-base">
-                  Join the community on Telegram
+                <br />
+                <p className="text-gray-700 text-base inline">
+                  Join the community on
                 </p>
-                {/* telebram link */}
+                <a href="https://t.me/+mybHAepIAV40NTlh" className="inline"> Telegram</a>
               </div>
             </div>
           </div>
