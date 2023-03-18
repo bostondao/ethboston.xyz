@@ -1,20 +1,14 @@
-import SpeakerCard from "./components/SpeakerCard";
+import React from 'react'
+import SpeakerCard from "../components/SpeakerCard";
+import Footer from "../components/Footer";
+import TitleInfo from "../components/TitleInfo"
 
-function App() {
-  const speakerList = require(`./speakers.json`);
+export default function Index() {
+  const speakerList = require(`../speakers.json`);
   return (
     <main style={ { backgroundColor: `rgba(252, 189, 75, .1)` } }>
       {/* Logo, header, image */ }
-      <section className="max-w-full p-5">
-        <article>
-          <div className="flex justify-center">
-            <img src="./logo.svg" alt="ETH boston logo" className="h-32 sm:h-48 my-4" />
-          </div>
-          <div className="flex justify-center">
-            <img src="./text-ethboston.png" alt="title" className="h-12 sm:h-24" />
-          </div>
-        </article>
-      </section>
+      <TitleInfo />
       {/* Date and location */ }
       <section className="flex justify-center my-5">
         <div className="flex items-center rounded-full border justify-between text-blue-1">
@@ -79,8 +73,7 @@ function App() {
           })}
         </article>
       </section>
+      <Footer />
     </main>
   );
 }
-
-export default App;
