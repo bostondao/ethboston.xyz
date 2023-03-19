@@ -41,6 +41,11 @@
             "company": "Cryptoshire"
         },
         {
+            "name": "Evin McMullen",
+            "src": "Evin McMullen.png",
+            "company": "Disco"
+        },
+        {
             "name": "Giuseppe Stutto",
             "src": "Giuseppe_Stutto.jpg",
             "company": "186 Ventures"
@@ -74,6 +79,11 @@
             "name": "Matt Walsh",
             "src": "Matt_Walsh.jpg",
             "company": "Castle Island Ventures"
+        },
+        {
+            "name": "Maxwell Kanter",
+            "src": "Maxwell Kanter.jpg",
+            "company": "Gitcoin Passport"
         },
         {
             "name": "Maxwell Lyman",
