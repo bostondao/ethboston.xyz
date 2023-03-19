@@ -36,7 +36,7 @@ export default function Index() {
       {/* Cover image */ }
       <section className="flex justify-center h-full items-center">
         <article className="px-5 mt-5">
-          <img src="./ETHBoston_illustrations-01.png" alt="ETH Boston coming April 2023" className="" />
+          <img src="./ETHBoston_illustrations.svg" alt="ETH Boston coming April 2023" className="" />
         </article>
       </section>
       {/* Description */ }
