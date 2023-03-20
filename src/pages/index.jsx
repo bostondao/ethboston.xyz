@@ -17,7 +17,7 @@ export default function Index() {
             <span className="text-lg sm:text-2xl mx-2 pr-2 font-semibold">April 29-30 2023</span>
           </article>
           <article className="flex items-center justify-center">
-            <span className="text-lg sm:text-2xl mx-2 pl-2 font-semibold">595 Commonwealth Ave, Boston</span>
+            <span className="text-lg sm:text-2xl mx-2 pl-2 font-semibold text-right">595 Commonwealth Ave, Boston</span>
             <span className="rounded-full border p-2 m-1 bg-blue-2">
               <img src="./map-pin.svg" alt="Dates" />
             </span>
@@ -26,7 +26,7 @@ export default function Index() {
       </section>
       {/* Socials */ }
       <section className="flex justify-center">
-        <article className="flex items-center justify-around p-5 w-full sm:w-2/3">
+        <article className="flex items-center justify-around pt-5 w-full sm:w-2/3">
           {/* Twitter */ }
           <a href="https://twitter.com/ETHBoston" target="_blank" rel="noreferrer" className="flex items-center  text-xl rounded-full border px-4 py-2 hover:bg-sky-100">Follow us on<img src="./twitter.svg" alt="Twitter icon" className="ml-2" /></a>
           {/* Email */ }
@@ -35,13 +35,13 @@ export default function Index() {
       </section>
       {/* Cover image */ }
       <section className="flex justify-center h-full items-center">
-        <article className="px-5 mt-5">
-          <img src="./ETHBoston_illustrations.svg" alt="ETH Boston coming April 2023" className="" />
+        <article className="px-5">
+          <img src="./city.webp" alt="ETH Boston coming April 2023" className="lg:-mt-32" />
         </article>
       </section>
       {/* Description */ }
-      <section className="flex justify-center bg-sky-100 text-blue-1 text-lg pt-10">
-        <article className="p-5 w-full sm:w-2/3">
+      <section className="flex justify-center text-blue-1 text-lg">
+        <article className="p-5 w-full sm:w-3/4 lg:w-2/3">
           <p className="mb-4">ETHBoston and The Boston DAO are proud to present ETHBoston 2023 at Boston University April 29-30 2023. We are excited about the return of this conference since the last
             ETHBoston conference in 2019. The in-person conference will feature two stages of
             speakers and panelists, technology specific workshops, networking events, and a
@@ -53,11 +53,10 @@ export default function Index() {
             who are creating the next generation of infrastructure and applications that will power the
             decentralized web.
           </p>
-          <p className="mb-4">&copy; 2023 ETHBoston Inc - This is not an official ETHGlobal event.</p>
         </article>
       </section>
       { /* CTAs */ }
-      <section className="flex flex-col sm:flex-row justify-center text-2xl bg-sky-100 pb-10">
+      <section className="flex flex-col sm:flex-row justify-center text-2xl pb-5">
         <a href="https://ethboston.typeform.com/waitlist" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold mx-6 text-center" >ATTEND</a>
         <a href="https://ethboston.typeform.com/speakerproposal" target="_blank" rel="noreferrer" className="mx-6 px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold my-4 sm:my-0 text-center" >SPEAK</a>
         <a href="https://ethboston.typeform.com/volunteer" target="_blank" rel="noreferrer" className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold mx-6 text-center" >VOLUNTEER</a>
@@ -65,7 +64,7 @@ export default function Index() {
       {/* Speakers */}
       <section className="py-10">
         <div className="flex justify-center">
-          <img src="./speakers/text-speakers.png" alt="Speaker text" />
+          <h1 className='text-5xl uppercase font-semibold text-blue-1'>Speakers</h1>
         </div>
         <article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-10">
           { speakerList.speakers.map(s => {
