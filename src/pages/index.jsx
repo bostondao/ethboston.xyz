@@ -25,8 +25,8 @@ export default function Index() {
         </div>
       </section>
       {/* Socials */ }
-      <section className="flex justify-center">
-        <article className="flex items-center justify-around pt-5 w-full sm:w-2/3">
+      <section className="flex justify-center z-20">
+        <article className="flex items-center justify-around pt-5 w-full sm:w-2/3 z-20">
           {/* Twitter */ }
           <a href="https://twitter.com/ETHBoston" target="_blank" rel="noreferrer" className="flex items-center  text-xl rounded-full border px-4 py-2 hover:bg-sky-100">Follow us on<img src="./twitter.svg" alt="Twitter icon" className="ml-2" /></a>
           {/* Email */ }
@@ -34,11 +34,9 @@ export default function Index() {
         </article>
       </section>
       {/* Cover image */ }
-      <section className="flex justify-center h-full items-center">
-        <article className="px-5">
-          <img src="./city.webp" alt="ETH Boston coming April 2023" className="lg:-mt-32" />
-        </article>
-      </section>
+      <div className="flex justify-center h-full items-center z-0">
+        <img src="./city.webp" alt="ETH Boston coming April 2023" className="lg:-mt-32" />
+      </div>
       {/* Description */ }
       <section className="flex justify-center text-blue-1 text-lg">
         <article className="p-5 w-full sm:w-3/4 lg:w-2/3">
