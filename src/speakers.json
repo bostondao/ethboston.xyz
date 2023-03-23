@@ -1,6 +1,16 @@
 {
     "speakers": [
         {
+            "name": "Tim Carstens",
+            "src": "Tim_Carstens.jpg",
+            "company": "RISC Zero"
+        },
+        {
+            "name": "Andrew Verbinnen",
+            "src": "Andrew_Verbinnen.jpg",
+            "company": "HairDAO"
+        },
+        {
             "name": "Barbara Widholm",
             "src": "Barbara_Widholm.jfif",
             "company": "State Street"
@@ -14,6 +24,11 @@
             "name": "Brandon Bailey",
             "src": "Brandon_Bailey.jpg",
             "company": "Galaxy"
+        },
+        {
+            "name": "Christian Montoya",
+            "src": "Christian_Montoya.jpeg",
+            "company": "ConsenSys"
         },
         {
             "name": "Brian Fakhoury",
@@ -46,6 +61,11 @@
             "company": "Disco"
         },
         {
+            "name": "Gabe Pohl-Zaretsky",
+            "src": "Gabe_Pohl-Zaretsky.jpeg",
+            "company": "Gauntlet"
+        },
+        {
             "name": "Giuseppe Stutto",
             "src": "Giuseppe_Stutto.jpg",
             "company": "186 Ventures"
@@ -74,6 +94,11 @@
             "name": "MacLane Wilkison",
             "src": "MacLane_Wilkison.jpg",
             "company": "Threshold & NuCypher"
+        },
+        {
+            "name": "Mahesh Ramakrishnan",
+            "src": "Mahesh_Ramakrishnan.jpg",
+            "company": "Escape Velocity Ventures"
         },
         {
             "name": "Manasi Vora",
