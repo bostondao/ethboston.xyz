@@ -1,154 +1,264 @@
 {
     "speakers": [
         {
+            "name": "David Aronchick",
+            "src": "David_Aronchick.jpg",
+            "company": "CEO @ Expanso"
+        },
+        {
+            "name": "Matt Sevey",
+            "src": "Matt_Sevey.jpeg",
+            "company": "Director of Engineering @ Celestia"
+        },
+        {
+            "name": "Neha Narula",
+            "src": "Neha_Narula.jpg",
+            "company": "Director @ MIT Digital Currency Initiative"
+        },
+        {
+            "name": "Pooja Ranjan",
+            "src": "Pooja_Ranjan.jpeg",
+            "company": "Ethereum Cat Herders"
+        },
+        {
+            "name": "Justin Drake",
+            "src": "Justin_Drake.jpeg",
+            "company": "Research @ Ethereum Foundation"
+        },
+        {
             "name": "Tim Carstens",
             "src": "Tim_Carstens.jpg",
-            "company": "RISC Zero"
+            "company": "Principal Engineer @ RISC Zero"
         },
         {
             "name": "Andrew Verbinnen",
             "src": "Andrew_Verbinnen.jpg",
-            "company": "HairDAO"
+            "company": "Cofounder @ HairDAO"
         },
         {
             "name": "Barbara Widholm",
             "src": "Barbara_Widholm.jfif",
-            "company": "State Street"
+            "company": "VP Digital Product Development @ State Street"
         },
         {
             "name": "Bennett Collen",
             "src": "Bennett_Collen.jpeg",
-            "company": "Endstate"
+            "company": "Cofounder @ Endstate"
         },
         {
             "name": "Brandon Bailey",
             "src": "Brandon_Bailey.jpg",
-            "company": "Galaxy"
-        },
-        {
-            "name": "Christian Montoya",
-            "src": "Christian_Montoya.jpeg",
-            "company": "ConsenSys"
+            "company": "VP Mining @ Galaxy"
         },
         {
             "name": "Brian Fakhoury",
             "src": "Brian_Fakhoury.jpeg",
-            "company": "Mechanism Capital"
+            "company": "Researcher and Investor @ Mechanism Capital"
         },
+        {
+            "name": "Chris Lally",
+            "src": "Chris_Lally.jpg",
+            "company": "Cofounder @ Fide"
+        },
+        {
+            "name": "Christian Montoya",
+            "src": "Christian_Montoya.jpeg",
+            "company": "Sr Product Manager @ ConsenSys"
+        },
+        {
+            "name": "Christie Cheong",
+            "src": "Christie_Cheong.jpeg",
+            "company": "Independent Software Engineer"
+        },        
         {
             "name": "Christine Kim",
             "src": "Christine_Kim.jpg",
-            "company": "Galaxy"
+            "company": "Research & Galaxy"
         },
         {
             "name": "Dan Matuszewski",
             "src": "Dan_Matuszewski.png",
-            "company": "CMS Holdings"
+            "company": "Head of Social Media @ CMS Holdings"
+        },
+        {
+            "name": "Daniel Bernstein",
+            "src": "Daniel_Bernstein.png",
+            "company": "Founder @ Digital and Dusty"
         },
         {
             "name": "David Micley",
             "src": "David_Micley.jpeg",
-            "company": "Wintermute"
+            "company": "BD Director @ Wintermute"
         },
         {
             "name": "Eric Siu",
             "src": "Eric_Siu.jpg",
-            "company": "Cryptoshire"
+            "company": "Founding Partner @ Cryptoshire"
         },
         {
             "name": "Evin McMullen",
             "src": "Evin McMullen.png",
-            "company": "Disco"
+            "company": "CEO & Co-Founder @ Disco"
         },
         {
             "name": "Gabe Pohl-Zaretsky",
             "src": "Gabe_Pohl-Zaretsky.jpeg",
-            "company": "Gauntlet"
+            "company": "Data Science Lead @ Gauntlet"
         },
         {
             "name": "Giuseppe Stutto",
             "src": "Giuseppe_Stutto.jpg",
-            "company": "186 Ventures"
+            "company": "Managing Partner @ 186 Ventures"
+        },
+        {
+            "name": "Greg Eusden",
+            "src": "Greg_Eusden.jpg",
+            "company": "CEO @ Despark"
         },        
         {
             "name": "Guillaume Lambert",
             "src": "Guillaume_Lambert.JPG",
-            "company": "Panoptic"
+            "company": "Cofounder @ Panoptic"
         },
         {
             "name": "Jake Lynch",
             "src": "Jake_Lynch.jpg",
-            "company": "L1D"
+            "company": "Research & Investing @ L1D"
         },
         {
             "name": "James Prestwich",
             "src": "James_Prestwich.jpeg",
-            "company": "Nomad"
+            "company": "CTO @ Nomad"
         },
         {
             "name": "James Sinka",
             "src": "James_Sinka.jfif",
-            "company": "Orange DAO"
+            "company": "Co-Initiator @ Orange DAO"
+        },
+        {
+            "name": "Jessica Van Meir",
+            "src": "Jessica_Van_Meir.jpg",
+            "company": "Cofounder & COO @ MintStars"
+        },
+        {
+            "name": "Jon Starr",
+            "src": "Jon_Starr.jpg",
+            "company": "DeSci Labs"
+        },
+        {
+            "name": "Kai Ima",
+            "src": "Kai_Ima.jpg",
+            "company": "Freelance Content Creator @ Knomad & HIVE"
         },
         {
             "name": "Kenny Li",
             "src": "Kenny_Li.jpg",
-            "company": "Manta Network"
+            "company": "Cofounder @ Manta Network"
+        },
+        {
+            "name": "Kevin Dela Roca",
+            "src": "Kevin_Dela_Roca.jfif",
+            "company": "Cofounder @ ACRE World"
+        },
+        {
+            "name": "Laura Minquini",
+            "src": "Laura_Minquini.png",
+            "company": "Core Lead @ AthenaDAO"
         },
         {
             "name": "MacLane Wilkison",
             "src": "MacLane_Wilkison.jpg",
-            "company": "Threshold & NuCypher"
+            "company": "Contributor @ Threshold & Founder @ NuCypher"
         },
         {
             "name": "Mahesh Ramakrishnan",
             "src": "Mahesh_Ramakrishnan.jpg",
-            "company": "Escape Velocity Ventures"
+            "company": "Founding Partner @ Escape Velocity Ventures"
         },
         {
             "name": "Manasi Vora",
             "src": "Manasi_Vora.png",
-            "company": "RISC Zero & Komorebi"
+            "company": "VP @ RISC Zero & Founder @ Komorebi"
+        },
+        {
+            "name": "Maria Finkelmeier",
+            "src": "Maria_Finkelmeier.jpg",
+            "company": "Founder @ MF Dynamics"
         },
         {
             "name": "Matt Walsh",
             "src": "Matt_Walsh.jpg",
-            "company": "Castle Island Ventures"
+            "company": "Founding Partner @ Castle Island Ventures"
         },
         {
-            "name": "Maxwell Kanter",
-            "src": "Maxwell Kanter.jpg",
+            "name": "Max Kanter",
+            "src": "Max Kanter.jpg",
             "company": "Gitcoin Passport"
         },
         {
             "name": "Maxwell Lyman",
             "src": "Maxwell_Lyman.jpg",
-            "company": "Solon Labs"
+            "company": "Cofounder @ Solon Labs"
+        },
+        {
+            "name": "Michael Fischer",
+            "src": "Michael_Fischer.jpg",
+            "company": "DBDAO.xyz"
+        },
+        {
+            "name": "Mohsin Zaidi",
+            "src": "Mohsin_Zaidi.jpg",
+            "company": "Ceramic"
+        },
+        {
+            "name": "Nicole d'Avis",
+            "src": "Nicole_dAvis.jpg",
+            "company": "Seedclub"
+        },
+        {
+            "name": "Patrick Joyce",
+            "src": "Patrick_Joyce.jpg",
+            "company": "Cofounder & CEO @ ResearchHub"
+        },
+        {
+            "name": "Pei Chen",
+            "src": "Pei_Chen.jpeg",
+            "company": "VP Growth @ IOV Labs"
         },
         {
             "name": "Phil McMannis",
             "src": "Phil_McMannis.jpeg",
-            "company": "Waev"
+            "company": "Cofounder @ Waev"
+        },
+        {
+            "name": "Rahat Chowdhury",
+            "src": "Rahat_Chowdhury.png",
+            "company": "Head of Developer Relations @ Biconomy"
+        },
+        {
+            "name": "Samuel Westby",
+            "src": "Samuel_Westby.jpeg",
+            "company": "PhD Candidate @ Northeastern University"
         },
         {
             "name": "Seth Priebatsch",
             "src": "Seth_Priebatsch.jpg",
-            "company": "Groma"
+            "company": "President @ Groma"
         },
         {
             "name": "Sheila Lirio Marcelo",
             "src": "Sheila_Lirio_Marcelo.jpg",
-            "company": "Proof of Learn"
-        },
-        {
-            "name": "Steve Flanagan",
-            "src": "Steve_Flanagan.jpg",
-            "company": "Figment"
+            "company": "CEO & Cofounder @ Proof of Learn"
         },
         {
             "name": "Spencer Brody",
             "src": "Spencer_Brody.jpg",
             "company": "Ceramic"
+        },
+        {
+            "name": "Steve Flanagan",
+            "src": "Steve_Flanagan.jpg",
+            "company": "Lead Ethereum Engineer @ Figment"
         }
     ]   
 }
