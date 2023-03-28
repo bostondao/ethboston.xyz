@@ -29,6 +29,8 @@ export default function Index() {
         <article className="flex items-center justify-around pt-5 w-full sm:w-2/3 z-20">
           {/* Twitter */ }
           <a href="https://twitter.com/ETHBoston" target="_blank" rel="noreferrer" className="flex items-center  text-xl rounded-full border px-4 py-2 hover:bg-sky-100">Follow us on<img src="./twitter.svg" alt="Twitter icon" className="ml-2" /></a>
+          {/* Buy tickets */}
+        <a href="https://ethboston.typeform.com/tickets" target="_blank" rel="noreferrer" className="flex items-center  text-xl rounded-full border px-4 py-2 hover:bg-sky-100">Buy Tickets</a>
           {/* Email */ }
           <a href="mailto:sponsor@ethboston.xyz" target="_blank" rel="noreferrer" className="flex items-center  text-xl rounded-full border px-4 py-2 hover:bg-gray-100">Inquire<img src="./mail.svg" alt="Twitter icon" className="ml-2" /></a>
         </article>
