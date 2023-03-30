@@ -114,19 +114,6 @@ export default function Index() {
 					VOLUNTEER
 				</a>
 			</section>
-			{/* Sponsors  */}
-			<section className="w-full pt-10">
-				<h4 className="text-5xl uppercase font-semibold text-blue-1 text-center">
-					Sponsors
-				</h4>
-				<article className="flex justify-center">
-					<img
-						src="./sponsors.png"
-						alt="Sponsors"
-						className="w-full lg:w-2/3"
-					/>
-				</article>
-			</section>
 			{/* Speakers */}
 			<section className="py-10">
 				<div className="flex justify-center">
@@ -145,6 +132,19 @@ export default function Index() {
 							/>
 						);
 					})}
+				</article>
+			</section>
+			{/* Sponsors  */}
+			<section className="w-full p-10">
+				<h4 className="text-5xl uppercase font-semibold text-blue-1 text-center">
+					Sponsors
+				</h4>
+				<article className="flex justify-center">
+					<img
+						src="./sponsors.png"
+						alt="Sponsors"
+						className="w-full xl:w-2/3"
+					/>
 				</article>
 			</section>
 			<Footer />
