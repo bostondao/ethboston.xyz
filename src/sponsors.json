@@ -1,0 +1,28 @@
+{
+    "sponsors": [
+        {
+            "name": "Castle Island Ventures",
+            "src": "castle-island.png"
+        },
+        {
+            "name": "Ceramic",
+            "src": "ceramic.png"
+        },
+        {
+            "name": "L1 Digital",
+            "src": "L1D.png"
+        },
+        {
+            "name": "Moonbeam",
+            "src": "moonbeam.png"
+        },
+        {
+            "name": "Quicknode",
+            "src": "quicknode.png"
+        },
+        {
+            "name": "Threshold",
+            "src": "threshold.png"
+        }
+    ]
+}

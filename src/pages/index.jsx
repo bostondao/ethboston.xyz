@@ -2,6 +2,7 @@ import React from 'react'
 import SpeakerCard from "../components/SpeakerCard";
 import Footer from "../components/Footer";
 import TitleInfo from "../components/TitleInfo"
+import SponsorSection from "../components/SponsorSection"
 
 export default function Index() {
   const speakerList = require(`../speakers.json`);
@@ -72,6 +73,8 @@ export default function Index() {
           })}
         </article>
       </section>
+      {/* Sponsors  */}
+      <SponsorSection />
       <Footer />
     </main>
   );
