@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'open': ['open', 'sans-serif']
+      },
       colors: {
         blue: {
           1: `#030240`,

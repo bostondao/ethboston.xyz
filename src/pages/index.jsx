@@ -6,7 +6,7 @@ import TitleInfo from "../components/TitleInfo";
 export default function Index() {
 	const speakerList = require(`../speakers.json`);
 	return (
-		<main style={{ backgroundColor: `rgba(252, 189, 75, .1)` }}>
+		<main style={{ backgroundColor: `rgba(252, 189, 75, .1)` }} className='font-open'>
 			{/* Logo, header, image */}
 			<TitleInfo />
 			{/* Date and location */}
