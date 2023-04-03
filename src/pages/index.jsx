@@ -92,25 +92,26 @@ export default function Index() {
 			</section>
 			{/* CTAs */}
 			<section className="flex flex-col sm:flex-row justify-center text-2xl pb-5">
-				<a
-					href="https://ethboston.typeform.com/tickets"
+				<a 
+					href="https://ethboston.typeform.com/tickets" 
 					target="_blank"
 					rel="noreferrer"
-					className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold mx-6 text-center">
+					className="inline-block bg-blue-900 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					ATTEND
 				</a>
+
 				<a
 					href="https://ethboston.typeform.com/speakerproposal"
 					target="_blank"
 					rel="noreferrer"
-					className="mx-6 px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold my-4 sm:my-0 text-center">
+					className="inline-block bg-blue-900 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					SPEAK
 				</a>
 				<a
 					href="https://ethboston.typeform.com/volunteer"
 					target="_blank"
 					rel="noreferrer"
-					className="px-4 py-2 rounded-lg border-2 border-black bg-blue-2 text-white font-semibold mx-6 text-center">
+					className="inline-block bg-blue-900 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					VOLUNTEER
 				</a>
 			</section>
