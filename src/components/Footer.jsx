@@ -2,9 +2,12 @@ import React from "react";
 
 export default function Footer() {
 	return (
-<footer className="bg-gray-900 text-white pt-12 pb-8 px-4">
+<footer className="bg-blue-950 text-white pt-12 pb-8 px-4">
   <div className="container overflow-hidden flex flex-col lg:flex-row justify-between mx-auto px-4">
-    <div className="flex flex-col justify-center items-center">
+    <div
+      style={{ width: 300 }}
+      className="flex flex-col justify-center items-center"
+    >
       <img
         src="https://www.ethboston.xyz/logo.webp"
         className="mb-4"
@@ -26,7 +29,7 @@ export default function Footer() {
         <li>
           <a
             href="https://ethboston.xyz"
-            className="inline-block py-2 pl-3 pr-5 text-gray-500 hover:text-white no-underline"
+            className="inline-block py-2 pl-3 pr-5 text-gray-200 hover:text-white no-underline"
           >
             Home
           </a>
@@ -34,7 +37,7 @@ export default function Footer() {
         <li>
           <a
             href="https://www.ethboston.xyz#speakers"
-            className="inline-block py-2 pl-3 pr-5 text-gray-500 hover:text-white no-underline"
+            className="inline-block py-2 pl-3 pr-5 text-gray-200 hover:text-white no-underline"
           >
             Speakers
           </a>
@@ -42,7 +45,7 @@ export default function Footer() {
         <li>
           <a
             href="https://www.ethboston.xyz#sponsors"
-            className="inline-block py-2 pl-3 pr-5 text-gray-500 hover:text-white no-underline"
+            className="inline-block py-2 pl-3 pr-5 text-gray-200 hover:text-white no-underline"
           >
             Sponsors
           </a>
@@ -50,7 +53,7 @@ export default function Footer() {
         <li>
           <a
             href="https://ethboston.typeform.com/tickets"
-            className="inline-block py-2 pl-3 pr-5 text-gray-500 hover:text-white no-underline"
+            className="inline-block py-2 pl-3 pr-5 text-gray-200 hover:text-white no-underline"
           >
             Tickets
           </a>
@@ -64,7 +67,7 @@ export default function Footer() {
           <a
             href="https://drive.google.com/file/d/11T-p8Ken_jYmKc_Cs5MJK-okO-e1swyI/view?usp=share_link"
             target="_blank"
-            className="inline-block py-2 pl-3 pr-5 text-gray-500 hover:text-white no-underline"
+            className="inline-block py-2 pl-3 pr-5 text-gray-200 hover:text-white no-underline"
           >
             Terms of Service
           </a>
@@ -73,7 +76,7 @@ export default function Footer() {
           <a
             href="https://drive.google.com/file/d/1x5sSjG_0GUy5YHn3Hote9R4jyIULdGSy/view?usp=share_link"
             target="_blank"
-            className="inline-block py-2 pl-3 pr-5 text-gray-500 hover:text-white no-underline"
+            className="inline-block py-2 pl-3 pr-5 text-gray-200 hover:text-white no-underline"
           >
             Privacy Policy
           </a>
@@ -82,7 +85,7 @@ export default function Footer() {
           <a
             href="https://drive.google.com/file/d/1tS1vZBb_8zUpzOFrjPMx06IQDl-alyCK/view?usp=share_link"
             target="_blank"
-            className="inline-block py-2 pl-3 pr-5 text-gray-500 hover:text-white no-underline"
+            className="inline-block py-2 pl-3 pr-5 text-gray-200 hover:text-white no-underline"
           >
             Rules, Release and Waiver
           </a>
@@ -91,7 +94,7 @@ export default function Footer() {
           <a
             href="https://drive.google.com/file/d/1g28XV93Txfu2jAm-MZbHcq42VxvJxDSj/view?usp=share_link"
             target="_blank"
-            className="inline-block py-2 pl-3 pr-5 text-gray-500 hover:text-white no-underline"
+            className="inline-block py-2 pl-3 pr-5 text-gray-200 hover:text-white no-underline"
           >
             Contributor Proposal Agreement
           </a>
@@ -144,10 +147,11 @@ export default function Footer() {
       </div>
     </div>
   </div>
-  <div className="pt-4 mt-4 pt-6 text-gray-600 border-t border-gray-800 flex flex-col md:flex-row justify-center items-center">
+  <div className="pt-4 mt-4 pt-6 text-white border-t border-gray-800 flex flex-col md:flex-row justify-center items-center">
     <div>© 2023 ETH Boston</div>
   </div>
 </footer>
+
 
 
 
