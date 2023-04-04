@@ -116,7 +116,7 @@ export default function Index() {
 				</a>
 			</section>
 			{/* Speakers */}
-			<section className="py-10" id="speakers">
+			<section className="py-10"  id="speakers">
 				<div className="flex justify-center">
 					<h1 className="text-5xl uppercase font-semibold text-blue-1">
 						Speakers
@@ -136,7 +136,7 @@ export default function Index() {
 				</article>
 			</section>
 			{/* Sponsors  */}
-			<section className="w-full px-10 pb-10" id="sponsors">
+			<section className="w-full px-10 pb-10"  id="sponsors">
 				<h4 className="text-5xl uppercase font-semibold text-blue-1 text-center pb-10">
 					Sponsors
 				</h4>
