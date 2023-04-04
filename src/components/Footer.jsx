@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
 	return (
-<footer className="bg-blue-950 text-white pt-12 pb-8 px-4">
+<footer className="bg-blue-900 text-white pt-12 pb-8 px-4">
   <div className="container overflow-hidden flex flex-col lg:flex-row justify-between mx-auto px-4">
     <div
       style={{ width: 300 }}
