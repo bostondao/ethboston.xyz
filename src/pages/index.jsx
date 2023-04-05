@@ -104,7 +104,7 @@ export default function Index() {
 					href="https://ethboston.typeform.com/speakerproposal"
 					target="_blank"
 					rel="noreferrer"
-					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
+					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2 my-4 sm:my-0">
 					SPEAK
 				</a>
 				<a
@@ -115,8 +115,29 @@ export default function Index() {
 					VOLUNTEER
 				</a>
 			</section>
+			{/* Sponsors  */}
+			<section className="w-full px-10 py-10">
+				<h4 className="text-5xl uppercase font-semibold text-blue-1 text-center pb-10">
+					Sponsors
+				</h4>
+				<article className="flex justify-center">
+					<img
+						src="./sponsors.png"
+						alt="Sponsors"
+						className="w-full xl:w-2/3"
+					/>
+				</article>
+				<article>
+					<h4 className="text-3xl uppercase font-semibold text-blue-1 text-center pt-10">
+						Powered by
+					</h4>
+					<div className="flex justify-center">
+						<img src="./organizer-logos.png" alt="Organizer logos" />
+					</div>
+				</article>
+			</section>
 			{/* Speakers */}
-			<section className="py-10">
+			<section className="pb-10">
 				<div className="flex justify-center">
 					<h1 className="text-5xl uppercase font-semibold text-blue-1">
 						Speakers
@@ -134,19 +155,6 @@ export default function Index() {
 							/>
 						);
 					})}
-				</article>
-			</section>
-			{/* Sponsors  */}
-			<section className="w-full px-10 pb-10">
-				<h4 className="text-5xl uppercase font-semibold text-blue-1 text-center pb-10">
-					Sponsors
-				</h4>
-				<article className="flex justify-center">
-					<img
-						src="./sponsors.png"
-						alt="Sponsors"
-						className="w-full xl:w-2/3"
-					/>
 				</article>
 			</section>
 			<Footer />
