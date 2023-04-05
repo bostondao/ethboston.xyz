@@ -37,6 +37,16 @@
             "linkedin": "https://www.linkedin.com/in/intoverflow/"
         },
         {
+            "name": "Alok Tayi",
+            "src": "Alok_Tayi.jpeg",
+            "company": "CEO & Cofounder @ Vibe Bio"
+        },
+        {
+            "name": "Andrew Hollenbach",
+            "src": "Andrew_Hollenbach.jpeg",
+            "company": "Founding Engineer @ Privy"
+        },
+        {
             "name": "Andrew Verbinnen",
             "src": "Andrew_Verbinnen.jpg",
             "company": "Cofounder @ HairDAO",
@@ -47,6 +57,11 @@
             "src": "Barbara_Widholm.jfif",
             "company": "VP Digital Product Development @ State Street",
             "linkedin": "https://www.linkedin.com/in/barbara-widholm-5273a417/"
+        },
+        {
+            "name": "Benji Leibowitz",
+            "src": "Benji_Leibowitz.jpg",
+            "company": "Product Manager @ Molecule & Bio.xyz"
         },
         {
             "name": "Bennett Collen",
@@ -110,6 +125,11 @@
             "linkedin": "https://www.linkedin.com/in/dsneider/"
         },
         {
+            "name": "Dror Avieli",
+            "src": "Dror_Avieli.jpg",
+            "company": "VP Customer Success @ ConsenSys"
+        },
+        {
             "name": "Eric Siu",
             "src": "Eric_Siu.jpg",
             "company": "Founding Partner @ Cryptoshire",
@@ -120,6 +140,11 @@
             "src": "Evin McMullen.png",
             "company": "CEO & Co-Founder @ Disco",
             "linkedin": "https://www.linkedin.com/in/evin-mcmullen/"
+        },
+        {
+            "name": "Eyhab Aejaz",
+            "src": "Eyhab_Aejaz.jpg",
+            "company": "CEO & Cofounder @ Breach Insurance"
         },
         {
             "name": "Gabe Pohl-Zaretsky",
@@ -144,6 +169,11 @@
             "src": "Guillaume_Lambert.JPG",
             "company": "Cofounder @ Panoptic",
             "linkedin": "https://www.linkedin.com/in/guillaume-lambert-686591a0/"
+        },
+        {
+            "name": "Hocwyn Tipwex",
+            "src": "Hocwyn_Tipwex.jpeg",
+            "company": "Operations & BD @ Uqbar Network"
         },
         {
             "name": "Jake Lynch",
@@ -220,6 +250,11 @@
             "linkedin": "https://www.linkedin.com/in/mariafinkelmeier/"
         },
         {
+            "name": "Mark Cianci",
+            "src": "Mark_Cianci.jpg",
+            "company": "Counsel @ Ropes & Gray LLP"
+        },
+        {
             "name": "Matt Walsh",
             "src": "Matt_Walsh.jpg",
             "company": "Founding Partner @ Castle Island Ventures",
@@ -247,9 +282,14 @@
             "company": "Ceramic"
         },
         {
+            "name": "Morgan Richards",
+            "src": "Morgan_Richards.jpg",
+            "company": "Core Team @ ValleyDAO"
+        },
+        {
             "name": "Nicole d'Avis",
             "src": "Nicole_dAvis.JPG",
-            "company": "Seedclub",
+            "company": "Prev. Seedclub"
             "linkedin": "https://www.linkedin.com/in/nicole-davis-enid/"
         },
         {
@@ -271,6 +311,11 @@
             "name": "Rahat Chowdhury",
             "src": "Rahat_Chowdhury.png",
             "company": "Head of Developer Relations @ Biconomy"
+        },
+        {
+            "name": "Sam Yilmaz",
+            "src": "Sam_Yilmaz.jpg",
+            "company": "GP & COO @ Bloccelerate VC"
         },
         {
             "name": "Samuel Westby",
