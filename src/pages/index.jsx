@@ -96,7 +96,7 @@ export default function Index() {
 					href="https://ethboston.typeform.com/tickets" 
 					target="_blank"
 					rel="noreferrer"
-					className="inline-block bg-blue-900 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
+					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					ATTEND
 				</a>
 
@@ -104,14 +104,14 @@ export default function Index() {
 					href="https://ethboston.typeform.com/speakerproposal"
 					target="_blank"
 					rel="noreferrer"
-					className="inline-block bg-blue-900 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
+					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					SPEAK
 				</a>
 				<a
 					href="https://ethboston.typeform.com/volunteer"
 					target="_blank"
 					rel="noreferrer"
-					className="inline-block bg-blue-900 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
+					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					VOLUNTEER
 				</a>
 			</section>
@@ -130,6 +130,7 @@ export default function Index() {
 								imgSrc={s.src}
 								company={s.company}
 								key={s.name}
+								linkedin={s.linkedin}
 							/>
 						);
 					})}

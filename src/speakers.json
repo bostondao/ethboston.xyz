@@ -3,32 +3,38 @@
         {
             "name": "David Aronchick",
             "src": "David_Aronchick.jpg",
-            "company": "CEO @ Expanso"
+            "company": "CEO @ Expanso",
+            "linkedin": "https://www.linkedin.com/in/aronchick/"
         },
         {
             "name": "Matt Sevey",
             "src": "Matt_Sevey.jpeg",
-            "company": "Director of Engineering @ Celestia"
+            "company": "Director of Engineering @ Celestia",
+            "linkedin": "https://www.linkedin.com/in/sevey/"
         },
         {
             "name": "Neha Narula",
             "src": "Neha_Narula.jpg",
-            "company": "Director @ MIT Digital Currency Initiative"
+            "company": "Director @ MIT Digital Currency Initiative",
+            "linkedin": "https://www.linkedin.com/in/nnarula/"
         },
         {
             "name": "Pooja Ranjan",
             "src": "Pooja_Ranjan.jpeg",
-            "company": "Ethereum Cat Herders"
+            "company": "Ethereum Cat Herders",
+            "linkedin": "https://www.linkedin.com/in/pooja-r-072899114/"
         },
         {
             "name": "Justin Drake",
             "src": "Justin_Drake.jpeg",
-            "company": "Research @ Ethereum Foundation"
+            "company": "Research @ Ethereum Foundation",
+            "linkedin": "https://www.linkedin.com/in/drakefjustin/"
         },
         {
             "name": "Tim Carstens",
             "src": "Tim_Carstens.jpg",
-            "company": "Principal Engineer @ RISC Zero"
+            "company": "Principal Engineer @ RISC Zero",
+            "linkedin": "https://www.linkedin.com/in/intoverflow/"
         },
         {
             "name": "Alok Tayi",
@@ -43,12 +49,14 @@
         {
             "name": "Andrew Verbinnen",
             "src": "Andrew_Verbinnen.jpg",
-            "company": "Cofounder @ HairDAO"
+            "company": "Cofounder @ HairDAO",
+            "linkedin": "https://www.linkedin.com/in/andrew-verbinnen-a74073111/"
         },
         {
             "name": "Barbara Widholm",
             "src": "Barbara_Widholm.jfif",
-            "company": "VP Digital Product Development @ State Street"
+            "company": "VP Digital Product Development @ State Street",
+            "linkedin": "https://www.linkedin.com/in/barbara-widholm-5273a417/"
         },
         {
             "name": "Benji Leibowitz",
@@ -63,12 +71,14 @@
         {
             "name": "Brandon Bailey",
             "src": "Brandon_Bailey.jpg",
-            "company": "VP Mining @ Galaxy"
+            "company": "VP Mining @ Galaxy",
+            "linkedin": "https://www.linkedin.com/in/brandon-bailey-24613339/"
         },
         {
             "name": "Brian Fakhoury",
             "src": "Brian_Fakhoury.jpeg",
-            "company": "Researcher and Investor @ Mechanism Capital"
+            "company": "Researcher and Investor @ Mechanism Capital",
+            "linkedin": "https://www.linkedin.com/in/brianfakhoury/"
         },
         {
             "name": "Chris Lally",
@@ -78,7 +88,8 @@
         {
             "name": "Christian Montoya",
             "src": "Christian_Montoya.jpeg",
-            "company": "Sr Product Manager @ ConsenSys"
+            "company": "Sr Product Manager @ ConsenSys",
+            "linkedin": ""
         },
         {
             "name": "Christie Cheong",
@@ -98,17 +109,20 @@
         {
             "name": "Daniel Bernstein",
             "src": "Daniel_Bernstein.png",
-            "company": "Founder @ Digital and Dusty"
+            "company": "Founder @ Digital and Dusty",
+            "linkedin": "https://www.linkedin.com/in/danielsbernstein/"
         },
         {
             "name": "David Micley",
             "src": "David_Micley.jpeg",
-            "company": "BD Director @ Wintermute"
+            "company": "BD Director @ Wintermute",
+            "linkedin": "https://www.linkedin.com/in/david-micley-bbb14051/"
         },
         {
             "name": "David Sneider",
             "src": "David_Sneider.jpg",
-            "company": "Founder @ Lit Protocol"
+            "company": "Founder @ Lit Protocol",
+            "linkedin": "https://www.linkedin.com/in/dsneider/"
         },
         {
             "name": "Dror Avieli",
@@ -118,12 +132,14 @@
         {
             "name": "Eric Siu",
             "src": "Eric_Siu.jpg",
-            "company": "Founding Partner @ Cryptoshire"
+            "company": "Founding Partner @ Cryptoshire",
+            "linkedin": "https://www.linkedin.com/in/e-siu/"
         },
         {
             "name": "Evin McMullen",
             "src": "Evin McMullen.png",
-            "company": "CEO & Co-Founder @ Disco"
+            "company": "CEO & Co-Founder @ Disco",
+            "linkedin": "https://www.linkedin.com/in/evin-mcmullen/"
         },
         {
             "name": "Eyhab Aejaz",
@@ -133,22 +149,26 @@
         {
             "name": "Gabe Pohl-Zaretsky",
             "src": "Gabe_Pohl-Zaretsky.jpeg",
-            "company": "Data Science Lead @ Gauntlet"
+            "company": "Data Science Lead @ Gauntlet",
+            "linkedin": "https://www.linkedin.com/in/gabepz/"
         },
         {
             "name": "Giuseppe Stutto",
             "src": "Giuseppe_Stutto.jpg",
-            "company": "Managing Partner @ 186 Ventures"
+            "company": "Managing Partner @ 186 Ventures",
+            "linkedin": "https://www.linkedin.com/in/giuseppestuto/"
         },
         {
             "name": "Greg Eusden",
             "src": "Greg_Eusden.JPG",
-            "company": "CEO @ Despark"
+            "company": "CEO @ Despark",
+            "linkedin": "https://www.linkedin.com/in/greg-eusden/"
         },        
         {
             "name": "Guillaume Lambert",
             "src": "Guillaume_Lambert.JPG",
-            "company": "Cofounder @ Panoptic"
+            "company": "Cofounder @ Panoptic",
+            "linkedin": "https://www.linkedin.com/in/guillaume-lambert-686591a0/"
         },
         {
             "name": "Hocwyn Tipwex",
@@ -158,7 +178,8 @@
         {
             "name": "Jake Lynch",
             "src": "Jake_Lynch.jpg",
-            "company": "Research & Investing @ L1D"
+            "company": "Research & Investing @ L1D",
+            "linkedin": "https://www.linkedin.com/in/jake-lynch/"
         },
         {
             "name": "James Prestwich",
@@ -168,12 +189,15 @@
         {
             "name": "James Sinka",
             "src": "James_Sinka.jfif",
-            "company": "Co-Initiator @ Orange DAO"
+            "company": "Co-Initiator @ Orange DAO",
+            "linkedin": "https://www.linkedin.com/in/jamessinka/"
+
         },
         {
             "name": "Jessica Van Meir",
             "src": "Jessica_Van_Meir.jpg",
-            "company": "Cofounder & COO @ MintStars"
+            "company": "Cofounder & COO @ MintStars",
+            "linkedin": "https://www.linkedin.com/in/jessicavanmeir/"
         },
         {
             "name": "Jon Starr",
@@ -188,17 +212,20 @@
         {
             "name": "Kenny Li",
             "src": "Kenny_Li.jpg",
-            "company": "Cofounder @ Manta Network"
+            "company": "Cofounder @ Manta Network",
+            "linkedin": "https://www.linkedin.com/in/mkennyl/"
         },
         {
             "name": "Kevin Dela Roca",
             "src": "Kevin_Dela_Roca.jfif",
-            "company": "Cofounder @ ACRE World"
+            "company": "Cofounder @ ACRE World",
+            "linkedin": "https://www.linkedin.com/in/kevindelaroca/"
         },
         {
             "name": "Laura Minquini",
             "src": "Laura_Minquini.PNG",
-            "company": "Core Lead @ AthenaDAO"
+            "company": "Core Lead @ AthenaDAO",
+            "linkedin": "https://www.linkedin.com/in/lauraminquini/"
         },
         {
             "name": "MacLane Wilkison",
@@ -213,12 +240,14 @@
         {
             "name": "Manasi Vora",
             "src": "Manasi_Vora.png",
-            "company": "VP @ RISC Zero & Founder @ Komorebi"
+            "company": "VP @ RISC Zero & Founder @ Komorebi",
+            "linkedin": "https://www.linkedin.com/in/manasi-vora-cfa-bb9a1715/"
         },
         {
             "name": "Maria Finkelmeier",
             "src": "Maria_Finkelmeier.jpg",
-            "company": "Founder @ MF Dynamics"
+            "company": "Founder @ MF Dynamics",
+            "linkedin": "https://www.linkedin.com/in/mariafinkelmeier/"
         },
         {
             "name": "Mark Cianci",
@@ -228,12 +257,14 @@
         {
             "name": "Matt Walsh",
             "src": "Matt_Walsh.jpg",
-            "company": "Founding Partner @ Castle Island Ventures"
+            "company": "Founding Partner @ Castle Island Ventures",
+            "linkedin": "https://www.linkedin.com/in/matthewpwalsh/"
         },
         {
             "name": "Max Kanter",
             "src": "Max_Kanter.jpg",
-            "company": "Gitcoin Passport"
+            "company": "Gitcoin Passport",
+            "linkedin": "https://www.linkedin.com/in/jmaxkanter/"
         },
         {
             "name": "Maxwell Lyman",
@@ -258,7 +289,8 @@
         {
             "name": "Nicole d'Avis",
             "src": "Nicole_dAvis.JPG",
-            "company": "Prev. Seedclub"
+            "company": "Prev. Seedclub",
+            "linkedin": "https://www.linkedin.com/in/nicole-davis-enid/"
         },
         {
             "name": "Patrick Joyce",
