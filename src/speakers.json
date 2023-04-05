@@ -42,6 +42,11 @@
             "company": "CEO & Cofounder @ Vibe Bio"
         },
         {
+            "name": "Andrew Bakst",
+            "src": "Andrew_Bakst.jpg",
+            "company": "Cofounder @ HairDAO"
+        },
+        {
             "name": "Andrew Hollenbach",
             "src": "Andrew_Hollenbach.jpeg",
             "company": "Founding Engineer @ Privy"
@@ -210,6 +215,11 @@
             "company": "DeSci Labs"
         },
         {
+            "name": "Joy Batra",
+            "src": "Joy_Batra.jpg",
+            "company": "ex-Head of Legal @ Syndicate Protocol"
+        },
+        {
             "name": "Kai Ima",
             "src": "Kai_Ima.jpg",
             "company": "Freelance Content Creator @ Knomad & HIVE"
@@ -328,6 +338,11 @@
             "company": "PhD Candidate @ Northeastern University"
         },
         {
+            "name": "Sean Judge",
+            "src": "Sean_Judge.jpg",
+            "company": "General Partner @ Castle Island Ventures"
+        },
+        {
             "name": "Seth Priebatsch",
             "src": "Seth_Priebatsch.jpg",
             "company": "President @ Groma"
@@ -346,6 +361,16 @@
             "name": "Steve Flanagan",
             "src": "Steve_Flanagan.jpg",
             "company": "Lead Ethereum Engineer @ Figment"
+        },
+        {
+            "name": "Uka Battulga",
+            "src": "Uka_Battulga.JPG",
+            "company": "Investor @ Harvard Management Company"
+        },
+        {
+            "name": "Winnie Lau",
+            "src": "Winnie_Lau.jpg",
+            "company": "Vice President @ BlockTower Capital"
         }
     ]   
 }
