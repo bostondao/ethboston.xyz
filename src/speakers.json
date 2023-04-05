@@ -276,6 +276,11 @@
             "linkedin": "https://www.linkedin.com/in/matthewpwalsh/"
         },
         {
+            "name": "Max Novakovic",
+            "src": "Max_Novakovic.jpg",
+            "company": "Lateral"
+        },
+        {
             "name": "Max Kanter",
             "src": "Max_Kanter.jpg",
             "company": "Gitcoin Passport",
@@ -346,6 +351,11 @@
             "name": "Seth Priebatsch",
             "src": "Seth_Priebatsch.jpg",
             "company": "President @ Groma"
+        },
+        {
+            "name": "Shady El Damaty",
+            "src": "Shady_El_Damaty.jpeg",
+            "company": "Cofounder @ Holonym"
         },
         {
             "name": "Sheila Lirio Marcelo",
