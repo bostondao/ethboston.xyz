@@ -200,6 +200,11 @@
             "linkedin": "https://www.linkedin.com/in/jessicavanmeir/"
         },
         {
+            "name": "John Hilliard",
+            "src": "John_Hilliard.jpeg",
+            "company": "Polygon"
+        },
+        {
             "name": "Jon Starr",
             "src": "Jon_Starr.jpg",
             "company": "DeSci Labs"
