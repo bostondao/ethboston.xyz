@@ -96,7 +96,7 @@ export default function Index() {
 					href="https://ethboston.typeform.com/tickets" 
 					target="_blank"
 					rel="noreferrer"
-					className="inline-block bg-blue-900 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
+					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					ATTEND
 				</a>
 
@@ -104,39 +104,19 @@ export default function Index() {
 					href="https://ethboston.typeform.com/speakerproposal"
 					target="_blank"
 					rel="noreferrer"
-					className="inline-block bg-blue-900 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
+					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2 my-4 sm:my-0">
 					SPEAK
 				</a>
 				<a
 					href="https://ethboston.typeform.com/volunteer"
 					target="_blank"
 					rel="noreferrer"
-					className="inline-block bg-blue-900 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
+					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					VOLUNTEER
 				</a>
 			</section>
-			{/* Speakers */}
-			<section className="py-10">
-				<div className="flex justify-center">
-					<h1 className="text-5xl uppercase font-semibold text-blue-1">
-						Speakers
-					</h1>
-				</div>
-				<article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 p-10">
-					{speakerList.speakers.map((s) => {
-						return (
-							<SpeakerCard
-								name={s.name}
-								imgSrc={s.src}
-								company={s.company}
-								key={s.name}
-							/>
-						);
-					})}
-				</article>
-			</section>
 			{/* Sponsors  */}
-			<section className="w-full px-10 pb-10">
+			<section className="w-full px-10 py-10">
 				<h4 className="text-5xl uppercase font-semibold text-blue-1 text-center pb-10">
 					Sponsors
 				</h4>
@@ -146,6 +126,35 @@ export default function Index() {
 						alt="Sponsors"
 						className="w-full xl:w-2/3"
 					/>
+				</article>
+				<article>
+					<h4 className="text-3xl uppercase font-semibold text-blue-1 text-center pt-10">
+						Powered by
+					</h4>
+					<div className="flex justify-center">
+						<img src="./organizer-logos.png" alt="Organizer logos" />
+					</div>
+				</article>
+			</section>
+			{/* Speakers */}
+			<section className="pb-10">
+				<div className="flex justify-center">
+					<h1 className="text-5xl uppercase font-semibold text-blue-1">
+						Speakers
+					</h1>
+				</div>
+				<article className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 p-10">
+					{speakerList.speakers.map((s) => {
+						return (
+							<SpeakerCard
+								name={s.name}
+								imgSrc={s.src}
+								company={s.company}
+								key={s.name}
+								linkedin={s.linkedin}
+							/>
+						);
+					})}
 				</article>
 			</section>
 			<Footer />
