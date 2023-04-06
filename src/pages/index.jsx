@@ -64,9 +64,9 @@ export default function Index() {
 			{/* Cover image */}
 			<div className="flex justify-center h-full items-center z-0">
 				<img
-					src="./city.webp"
+					src="./banner.png"
 					alt="ETH Boston coming April 2023"
-					className="lg:-mt-32"
+					className=""
 				/>
 			</div>
 			{/* Description */}
@@ -115,29 +115,8 @@ export default function Index() {
 					VOLUNTEER
 				</a>
 			</section>
-			{/* Sponsors  */}
-			<section className="w-full px-10 py-10">
-				<h4 className="text-5xl uppercase font-semibold text-blue-1 text-center pb-10">
-					Sponsors
-				</h4>
-				<article className="flex justify-center">
-					<img
-						src="./sponsors.png"
-						alt="Sponsors"
-						className="w-full xl:w-2/3"
-					/>
-				</article>
-				<article>
-					<h4 className="text-3xl uppercase font-semibold text-blue-1 text-center pt-10">
-						Powered by
-					</h4>
-					<div className="flex justify-center">
-						<img src="./organizer-logos.png" alt="Organizer logos" />
-					</div>
-				</article>
-			</section>
 			{/* Speakers */}
-			<section className="pb-10">
+			<section className="py-10">
 				<div className="flex justify-center">
 					<h1 className="text-5xl uppercase font-semibold text-blue-1">
 						Speakers
