@@ -6,11 +6,11 @@ import TitleInfo from "../components/TitleInfo";
 export default function Index() {
 	const speakerList = require(`../speakers.json`);
 	return (
-		<main style={{ backgroundColor: `rgba(252, 189, 75, .1)` }} className='font-open'>
+		<main style={{ backgroundColor: `rgba(252, 189, 75, .1)` }} className='font-open' id="home">
 			{/* Logo, header, image */}
 			<TitleInfo />
 			{/* Date and location */}
-			<section className="flex justify-center my-5">
+			<section className="flex justify-center my-5" id="sponsors">
 				<div className="flex items-center rounded-full border justify-between text-blue-1">
 					<article className="flex items-center justify-center">
 						<span className="rounded-full border p-2 m-1 bg-blue-2">
@@ -116,7 +116,7 @@ export default function Index() {
 				</a>
 			</section>
 			{/* Speakers */}
-			<section className="py-10">
+			<section className="py-10" id="speakers">
 				<div className="flex justify-center">
 					<h1 className="text-5xl uppercase font-semibold text-blue-1">
 						Speakers
