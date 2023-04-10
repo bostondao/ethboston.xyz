@@ -37,6 +37,11 @@
             "linkedin": "https://www.linkedin.com/in/intoverflow/"
         },
         {
+            "name": "Aaron Geller",
+            "src": "Aaron_Geller.jpg",
+            "company": "VP of Revenue @ QuickNode"
+        },
+        {
             "name": "Alok Tayi",
             "src": "Alok_Tayi.jpeg",
             "company": "CEO & Cofounder @ Vibe Bio"
@@ -56,6 +61,11 @@
             "src": "Andrew_Verbinnen.jpg",
             "company": "Cofounder @ HairDAO",
             "linkedin": "https://www.linkedin.com/in/andrew-verbinnen-a74073111/"
+        },
+        {
+            "name": "Apolonia Thomas",
+            "src": "Apolonia_Thomas.PNG",
+            "company": "House of Her.A"
         },
         {
             "name": "Barbara Widholm",
@@ -133,6 +143,11 @@
             "name": "Dror Avieli",
             "src": "Dror_Avieli.jpg",
             "company": "VP Customer Success @ ConsenSys"
+        },
+        {
+            "name": "Einar Braathen",
+            "src": "Einar_Braathen.jpg",
+            "company": "Investor @ CoinFund"
         },
         {
             "name": "Eric Siu",
@@ -259,6 +274,11 @@
             "linkedin": "https://www.linkedin.com/in/manasi-vora-cfa-bb9a1715/"
         },
         {
+            "name": "Mari Tomunen",
+            "src": "Mari_Tomunen.jpg",
+            "company": "Corporate Counsel @ Flipside Crypto"
+        },
+        {
             "name": "Maria Finkelmeier",
             "src": "Maria_Finkelmeier.jpg",
             "company": "Founder @ MF Dynamics",
@@ -348,6 +368,11 @@
             "company": "General Partner @ Castle Island Ventures"
         },
         {
+            "name": "Sergey Gorbunov",
+            "src": "Sergey_Gorbunov.jpeg",
+            "company": "CEO and Cofounder @ Axelar"
+        },
+        {
             "name": "Seth Priebatsch",
             "src": "Seth_Priebatsch.jpg",
             "company": "President @ Groma"
@@ -368,14 +393,29 @@
             "company": "Ceramic"
         },
         {
+            "name": "Stephen Moskowitz",
+            "src": "Stephen_Moskowitz.jpg",
+            "company": "CEO and Founder @ Pyxis Search Partners"
+        },
+        {
             "name": "Steve Flanagan",
             "src": "Steve_Flanagan.jpg",
             "company": "Lead Ethereum Engineer @ Figment"
         },
         {
+            "name": "Travis Lowry",
+            "src": "Travis_Lowry.jpeg",
+            "company": "Founder @ Vinyl Capital & Cofounder @ The Investment DAO"
+        },
+        {
             "name": "Uka Battulga",
             "src": "Uka_Battulga.JPG",
             "company": "Investor @ Harvard Management Company"
+        },
+        {
+            "name": "Vince McPhilip",
+            "src": "Vince_McPhilip.jpg",
+            "company": "Founder @ Knomad"
         },
         {
             "name": "Winnie Lau",
