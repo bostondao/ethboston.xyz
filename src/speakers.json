@@ -68,6 +68,11 @@
             "company": "House of Her.A"
         },
         {
+            "name": "Arjun Hassard",
+            "src": "Arjun_Hassard.jpg",
+            "company": "Contributor @ Threshold & Head of Product @ NuCypher"
+        },
+        {
             "name": "Barbara Widholm",
             "src": "Barbara_Widholm.jfif",
             "company": "VP Digital Product Development @ State Street",
@@ -331,6 +336,11 @@
             "src": "Nicole_dAvis.JPG",
             "company": "Prev. Seedclub",
             "linkedin": "https://www.linkedin.com/in/nicole-davis-enid/"
+        },
+        {
+            "name": "Nick Ducoff",
+            "src": "Nick_Ducoff.jpg",
+            "company": "Investor @ G20 Ventures"
         },
         {
             "name": "Patrick Joyce",
