@@ -6,22 +6,36 @@ import TitleInfo from "../components/TitleInfo";
 export default function Index() {
 	const speakerList = require(`../speakers.json`);
 	return (
-		<main style={{ backgroundColor: `rgba(252, 189, 75, .1)` }} className='font-open' id="home">
+		<main
+			style={{ backgroundColor: `rgba(252, 189, 75, .1)` }}
+			className="font-open"
+			id="home">
 			{/* Logo, header, image */}
 			<TitleInfo />
+			{/* Rough schedule */}
+			<section>
+				<article>
+					<div className="grid grid-cols-2 gap-2 text-center p-3">
+						<p className="text-blue-3">
+							<span className="font-semibold">Conference</span> - 10AM Saturday to 6:00 PM
+						</p>
+						<p className="text-blue-3">
+							<span className="font-semibold">Hackaton</span> - 10 AM Friday to Noon Sunday
+						</p>
+					</div>
+				</article>
+			</section>
 			{/* Date and location */}
-			<section className="flex justify-center my-5" id="sponsors">
-				<div className="flex items-center rounded-full border justify-between text-blue-1">
+			<section className="flex justify-center mx-2 my-5" id="sponsors">
+				<div className="flex items-center text-md sm:text-2xl rounded-full border justify-between text-blue-1">
 					<article className="flex items-center justify-center">
 						<span className="rounded-full border p-2 m-1 bg-blue-2">
 							<img src="./calendar.svg" alt="Dates" />
 						</span>
-						<span className="text-lg sm:text-2xl mx-2 pr-2 font-semibold">
-							April 29-30 2023
-						</span>
+						<span className="mx-2 pr-2 font-semibold">April 29-30 2023</span>
 					</article>
 					<article className="flex items-center justify-center">
-						<span className="text-lg sm:text-2xl mx-2 pl-2 font-semibold text-right">
+						<span className="mx-2 pl-2 font-semibold text-right">
 							595 Commonwealth Ave, Boston
 						</span>
 						<span className="rounded-full border p-2 m-1 bg-blue-2">
@@ -32,13 +46,13 @@ export default function Index() {
 			</section>
 			{/* Socials */}
 			<section className="flex justify-center z-20">
-				<article className="flex items-center justify-around pt-5 w-full sm:w-2/3 z-20">
+				<article className="flex flex-col sm:flex-row items-center justify-around pt-5 w-full sm:w-2/3 z-20">
 					{/* Twitter */}
 					<a
 						href="https://twitter.com/ETHBoston"
 						target="_blank"
 						rel="noreferrer"
-						className="flex items-center  text-xl rounded-full border px-4 py-2 hover:bg-sky-100">
+						className="flex items-center justify-center text-xl rounded-full border px-4 py-2 mb-4 hover:bg-sky-100">
 						Follow us on
 						<img src="./twitter.svg" alt="Twitter icon" className="ml-2" />
 					</a>
@@ -47,7 +61,7 @@ export default function Index() {
 						href="https://ethboston.typeform.com/tickets"
 						target="_blank"
 						rel="noreferrer"
-						className="flex items-center  text-xl rounded-full border px-4 py-2 hover:bg-sky-100">
+						className="flex items-center justify-center text-xl rounded-full border px-4 py-2 mb-4 hover:bg-sky-100">
 						Buy Tickets
 					</a>
 					{/* Email */}
@@ -55,7 +69,7 @@ export default function Index() {
 						href="mailto:sponsor@ethboston.xyz"
 						target="_blank"
 						rel="noreferrer"
-						className="flex items-center  text-xl rounded-full border px-4 py-2 hover:bg-gray-100">
+						className="flex items-center justify-center text-xl rounded-full border px-4 py-2 hover:bg-gray-100">
 						Inquire
 						<img src="./mail.svg" alt="Twitter icon" className="ml-2" />
 					</a>
@@ -92,8 +106,8 @@ export default function Index() {
 			</section>
 			{/* CTAs */}
 			<section className="flex flex-col sm:flex-row justify-center text-2xl pb-5">
-				<a 
-					href="https://ethboston.typeform.com/tickets" 
+				<a
+					href="https://ethboston.typeform.com/tickets"
 					target="_blank"
 					rel="noreferrer"
 					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
