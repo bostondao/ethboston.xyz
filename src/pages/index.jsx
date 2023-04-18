@@ -17,10 +17,10 @@ export default function Index() {
 				<article>
 					<div className="grid grid-cols-2 gap-2 text-center p-3">
 						<p className="text-blue-3">
-							<span className="font-semibold">Conference</span> - 10AM Saturday to 6:00 PM
+							<span className="font-semibold">Conference</span> - 10AM Saturday to 6PM Sunday
 						</p>
 						<p className="text-blue-3">
-							<span className="font-semibold">Hackaton</span> - 10 AM Friday to Noon Sunday
+							<span className="font-semibold">Hackathon</span> - 10AM Friday to 12PM Sunday
 						</p>
 					</div>
 				</article>
