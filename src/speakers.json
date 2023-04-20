@@ -47,6 +47,11 @@
             "company": "CEO & Cofounder @ Vibe Bio"
         },
         {
+            "name": "Alysa Zhao",
+            "src": "Alysa_Zhao.jpeg",
+            "company": "BU Blockchain"
+        },
+        {
             "name": "Andrew Bakst",
             "src": "Andrew_Bakst.jpg",
             "company": "Cofounder @ HairDAO"
@@ -201,6 +206,16 @@
             "company": "Operations & BD @ Uqbar Network"
         },
         {
+            "name": "Jack Diefnabch",
+            "src": "Jack_Diefenbach.jpg",
+            "company": "Polygon Boston Guild Lead"
+        },
+        {
+            "name": "Jack McCarthy",
+            "src": "Jack_McCarthy.jpg",
+            "company": "Boston College Blockchain"
+        },
+        {
             "name": "Jake Lynch",
             "src": "Jake_Lynch.jpg",
             "company": "Research & Investing @ L1D",
@@ -216,7 +231,6 @@
             "src": "James_Sinka.jfif",
             "company": "Co-Initiator @ Orange DAO",
             "linkedin": "https://www.linkedin.com/in/jamessinka/"
-
         },
         {
             "name": "Jessica Van Meir",
@@ -228,6 +242,11 @@
             "name": "John Hilliard",
             "src": "John_Hilliard.jpeg",
             "company": "Polygon"
+        },
+        {
+            "name": "John Zannos",
+            "src": "John_Zannos.jpg",
+            "company": "Venture Partner @ Inflection"
         },
         {
             "name": "Jon Starr",
@@ -261,6 +280,11 @@
             "src": "Laura_Minquini.PNG",
             "company": "Core Lead @ AthenaDAO",
             "linkedin": "https://www.linkedin.com/in/lauraminquini/"
+        },
+        {
+            "name": "MacKay Grant",
+            "src": "MacKay_Grant.jpg",
+            "company": "Suffolk University Blockchain"
         },
         {
             "name": "MacLane Wilkison",
@@ -368,6 +392,11 @@
             "company": "GP & COO @ Bloccelerate VC"
         },
         {
+            "name": "Sahir Doshi",
+            "src": "Sahir_Doshi.JPG",
+            "company": "President @ BU Blockchain"
+        },
+        {
             "name": "Samuel Westby",
             "src": "Samuel_Westby.jpeg",
             "company": "PhD Candidate @ Northeastern University"
@@ -431,6 +460,11 @@
             "name": "Winnie Lau",
             "src": "Winnie_Lau.jpg",
             "company": "Vice President @ BlockTower Capital"
+        },
+        {
+            "name": "Youssef Haidar",
+            "src": "Youssef_Haidar.jpg",
+            "company": "President @ NEU Blockchain"
         }
     ]   
 }
