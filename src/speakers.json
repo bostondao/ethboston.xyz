@@ -152,12 +152,14 @@
         {
             "name": "Dror Avieli",
             "src": "Dror_Avieli.jpg",
-            "company": "VP Customer Success @ ConsenSys"
+            "company": "VP Customer Success @ ConsenSys",
+            "linkedin": "https://www.linkedin.com/in/dror-avieli-33839/"
         },
         {
             "name": "Einar Braathen",
             "src": "Einar_Braathen.jpg",
-            "company": "Investor @ CoinFund"
+            "company": "Investor @ CoinFund",
+            "linkedin": "https://www.linkedin.com/in/ehbraathen/"
         },
         {
             "name": "Eric Siu",
@@ -174,7 +176,8 @@
         {
             "name": "Eyhab Aejaz",
             "src": "Eyhab_Aejaz.jpg",
-            "company": "CEO & Cofounder @ Breach Insurance"
+            "company": "CEO & Cofounder @ Breach Insurance",
+            "linkedin": "https://www.linkedin.com/in/eyhabaejaz/"
         },
         {
             "name": "Gabe Pohl-Zaretsky",
@@ -208,12 +211,14 @@
         {
             "name": "Jack Diefenbach",
             "src": "Jack_Diefenbach.jpg",
-            "company": "Polygon Boston Guild Lead"
+            "company": "Polygon Boston Guild Lead",
+            "linkedin": "https://www.linkedin.com/in/jack-diefenbach/"
         },
         {
             "name": "Jack McCarthy",
             "src": "Jack_McCarthy.jpg",
-            "company": "Boston College Blockchain"
+            "company": "Boston College Blockchain",
+            "linkedin": "https://www.linkedin.com/in/jack-mccarthy-4365431a3/"
         },
         {
             "name": "Jake Lynch",
@@ -246,7 +251,8 @@
         {
             "name": "John Zannos",
             "src": "John_Zannos.jpg",
-            "company": "Venture Partner @ Inflection"
+            "company": "Venture Partner @ Inflection",
+            "linkedin": "https://www.linkedin.com/in/johnzannos/"
         },
         {
             "name": "Jon Starr",
@@ -256,7 +262,8 @@
         {
             "name": "Joy Batra",
             "src": "Joy_Batra.jpg",
-            "company": "ex-Head of Legal @ Syndicate Protocol"
+            "company": "ex-Head of Legal @ Syndicate Protocol",
+            "linkedin": "https://www.linkedin.com/in/joybatra/"
         },
         {
             "name": "Kai Ima",
@@ -294,7 +301,8 @@
         {
             "name": "Mahesh Ramakrishnan",
             "src": "Mahesh_Ramakrishnan.jpg",
-            "company": "Founding Partner @ Escape Velocity Ventures"
+            "company": "Founding Partner @ Escape Velocity Ventures",
+            "linkedin": "https://www.linkedin.com/in/mahesh-ramakrishnan-62b39a76/"
         },
         {
             "name": "Manasi Vora",
@@ -305,7 +313,8 @@
         {
             "name": "Mari Tomunen",
             "src": "Mari_Tomunen.jpg",
-            "company": "Corporate Counsel @ Flipside Crypto"
+            "company": "Corporate Counsel @ Flipside Crypto",
+            "linkedin": "https://www.linkedin.com/in/mari-tomunen-3475436a/"
         },
         {
             "name": "Maria Finkelmeier",
@@ -327,7 +336,8 @@
         {
             "name": "Max Novakovic",
             "src": "Max_Novakovic.jpg",
-            "company": "Lateral"
+            "company": "Lateral",
+            "linkedin": "https://www.linkedin.com/in/max-novakovic/"
         },
         {
             "name": "Max Kanter",
@@ -429,7 +439,8 @@
         {
             "name": "Spencer Brody",
             "src": "Spencer_Brody.jpg",
-            "company": "Ceramic"
+            "company": "Ceramic",
+            "linkedin": "https://www.linkedin.com/in/spencertbrody/"
         },
         {
             "name": "Stephen Moskowitz",
@@ -464,7 +475,8 @@
         {
             "name": "Youssef Haidar",
             "src": "Youssef_Haidar.jpg",
-            "company": "President @ NEU Blockchain"
+            "company": "President @ NEU Blockchain",
+            "linkedin": "https://www.linkedin.com/in/youssefhh/"
         }
     ]   
 }
