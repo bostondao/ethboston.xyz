@@ -113,7 +113,6 @@ export default function Index() {
 					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					ATTEND
 				</a>
-
 				<a
 					href="https://ethboston.typeform.com/speakerproposal"
 					target="_blank"
@@ -128,6 +127,11 @@ export default function Index() {
 					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
 					VOLUNTEER
 				</a>
+			</section>
+			{/* schedule */}
+			<section>
+				<img src="saturday.webp" alt="Saturday schedule" />
+				<img src="sunday.webp" alt="Saturday schedule" />
 			</section>
 			{/* Speakers */}
 			<section className="py-10" id="speakers">
