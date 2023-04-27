@@ -4,29 +4,51 @@ import Footer from "../components/Footer";
 import TitleInfo from "../components/TitleInfo";
 
 export default function Index() {
+	const scrollToSection = (id) => {
+		const e = document.getElementById(id);
+		e.scrollIntoView();
+	};
 	const speakerList = require(`../speakers.json`);
 	return (
 		<main
 			style={{ backgroundColor: `rgba(252, 189, 75, .1)` }}
 			className="font-open"
 			id="home">
+			{/* Top header: */}
+			<header style={{ backgroundColor: `rgba(255, 247, 237)` }} className="fixed z-40 bottom-0 sm:bottom-auto sm:top-0 w-full flex justify-around md:justify-end p-4 border-t-2 sm:border-t-0 sm:border-b-2 border-blue-1">
+				<button className="mx-4 uppercase text-blue-1 font-semibold" onClick={() => scrollToSection(`sponsors`)}>Sponsors</button>
+				<button className="mr-4 uppercase text-blue-1 font-semibold" onClick={() => scrollToSection(`schedule`)}>Schedule</button>
+				<button className="mr-4 uppercase text-blue-1 font-semibold" onClick={() => scrollToSection(`speakers`)}>Speakers</button>
+				<a
+					href="https://ethboston.typeform.com/tickets"
+					target="_blank"
+					rel="noreferrer"
+					className="mr-4 uppercase text-blue-1 font-semibold"
+				>
+					Tickets
+				</a>
+			</header>
 			{/* Logo, header, image */}
-			<TitleInfo />
+			<div className="pt-0 sm:pt-4">
+				<TitleInfo />
+			</div>
 			{/* Rough schedule */}
 			<section>
 				<article>
 					<div className="grid grid-cols-2 gap-2 text-center p-3">
 						<p className="text-blue-3">
-							<span className="font-semibold">Conference</span> - 10AM Saturday to 6PM Sunday
+							<span className="font-semibold">Conference</span> - 10AM Saturday
+							to 6PM Sunday
 						</p>
 						<p className="text-blue-3">
-							<span className="font-semibold">Hackathon</span> - 10AM Friday to 12PM Sunday
+							<span className="font-semibold">Hackathon</span> - 10AM Friday to
+							12PM Sunday
 						</p>
 					</div>
 				</article>
 			</section>
 			{/* Date and location */}
-			<section className="flex justify-center mx-2 my-5" id="sponsors">
+			<section className="flex justify-center mx-2 my-5">
 				<div className="flex items-center text-md sm:text-2xl rounded-full border justify-between text-blue-1">
 					<article className="flex items-center justify-center">
 						<span className="rounded-full border p-2 m-1 bg-blue-2">
@@ -76,7 +98,9 @@ export default function Index() {
 				</article>
 			</section>
 			{/* Cover image */}
-			<div className="flex justify-center h-full items-center z-0">
+			<div
+				id="sponsors"
+				className="flex justify-center h-full items-center z-0">
 				<img
 					src="./banner.png"
 					alt="ETH Boston coming April 2023"
@@ -129,7 +153,7 @@ export default function Index() {
 				</a>
 			</section>
 			{/* schedule */}
-			<section>
+			<section id="schedule">
 				<img src="saturday.webp" alt="Saturday schedule" />
 				<img src="sunday.webp" alt="Saturday schedule" />
 			</section>
