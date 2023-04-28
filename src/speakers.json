@@ -54,12 +54,14 @@
         {
             "name": "Andrew Bakst",
             "src": "Andrew_Bakst.jpg",
-            "company": "Cofounder @ HairDAO"
+            "company": "Cofounder @ HairDAO",
+            "linkedin": "https://www.linkedin.com/in/andrew-bakst-78b21b100/"
         },
         {
             "name": "Andrew Hollenbach",
             "src": "Andrew_Hollenbach.jpeg",
-            "company": "Founding Engineer @ Privy"
+            "company": "Founding Engineer @ Privy",
+            "linkedin": "https://www.linkedin.com/in/ahollenbach/"
         },
         {
             "name": "Andrew Verbinnen",
@@ -108,7 +110,8 @@
         {
             "name": "Chris Lally",
             "src": "Chris_Lally.jpg",
-            "company": "Cofounder @ Fide"
+            "company": "Cofounder @ Fide",
+            "linkedin": "https://www.linkedin.com/in/clally/"
         },
         {
             "name": "Christian Montoya",
