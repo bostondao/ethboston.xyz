@@ -15,10 +15,18 @@ export default function Index() {
 			className="font-open"
 			id="home">
 			{/* Top header: */}
-			<header style={{ backgroundColor: `rgba(255, 247, 237)` }} className="fixed z-40 bottom-0 sm:bottom-auto sm:top-0 w-full flex justify-around md:justify-end p-4 border-t-2 sm:border-t-0 sm:border-b-2 border-blue-1">
+			<header style={{ backgroundColor: `rgba(255, 247, 237)` }} className="fixed z-40 bottom-0 sm:bottom-auto sm:top-0 w-full flex justify-start md:justify-end p-4 border-t-2 sm:border-t-0 sm:border-b-2 border-blue-1 overflow-auto">
 				<button className="mx-4 uppercase text-blue-1 font-semibold" onClick={() => scrollToSection(`sponsors`)}>Sponsors</button>
 				<button className="mr-4 uppercase text-blue-1 font-semibold" onClick={() => scrollToSection(`schedule`)}>Schedule</button>
 				<button className="mr-4 uppercase text-blue-1 font-semibold" onClick={() => scrollToSection(`speakers`)}>Speakers</button>
+				<a
+					href="https://docs.google.com/document/d/1H4nFG_oArH1-5KFBI1ZOcdCCtWyhAn1NGauVzxFDtmQ/edit"
+					target="_blank"
+					rel="noreferrer"
+					className="mr-4 uppercase text-blue-1 font-semibold"
+				>
+					Hackathon
+				</a>
 				<a
 					href="https://ethboston.typeform.com/tickets"
 					target="_blank"
