@@ -45,12 +45,10 @@ export default function Index() {
 				<article>
 					<div className="grid grid-cols-2 gap-2 text-center p-3">
 						<p className="text-blue-3">
-							<span className="font-semibold">Conference</span> - 10AM Saturday
-							to 6PM Sunday
+							<span className="font-semibold">Conference</span> - TBD
 						</p>
 						<p className="text-blue-3">
-							<span className="font-semibold">Hackathon</span> - 10AM Friday to
-							12PM Sunday
+							<span className="font-semibold">Hackathon</span> - TBD
 						</p>
 					</div>
 				</article>
@@ -62,11 +60,11 @@ export default function Index() {
 						<span className="rounded-full border p-2 m-1 bg-blue-2">
 							<img src="./calendar.svg" alt="Dates" />
 						</span>
-						<span className="mx-2 pr-2 font-semibold">April 29-30 2023</span>
+						<span className="mx-2 pr-2 font-semibold">April 26-28 2024</span>
 					</article>
 					<article className="flex items-center justify-center">
 						<span className="mx-2 pl-2 font-semibold text-right">
-							595 Commonwealth Ave, Boston
+							TBD
 						</span>
 						<span className="rounded-full border p-2 m-1 bg-blue-2">
 							<img src="./map-pin.svg" alt="Dates" />
@@ -88,11 +86,11 @@ export default function Index() {
 					</a>
 					{/* Buy tickets */}
 					<a
-						href="https://ethboston.typeform.com/tickets"
+						href="https://ethboston.typeform.com/waitlist2024"
 						target="_blank"
 						rel="noreferrer"
 						className="flex items-center justify-center text-xl rounded-full border px-4 py-2 mb-4 hover:bg-sky-100">
-						Buy Tickets
+						Join the Waitlist!
 					</a>
 					{/* Email */}
 					<a
@@ -139,7 +137,7 @@ export default function Index() {
 			{/* CTAs */}
 			<section className="flex flex-col sm:flex-row justify-center text-2xl pb-5">
 				<a
-					href="https://ethboston.typeform.com/tickets"
+					href="https://ethboston.typeform.com/waitlist2024"
 					target="_blank"
 					rel="noreferrer"
 					className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
