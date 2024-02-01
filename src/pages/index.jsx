@@ -28,7 +28,7 @@ export default function Index() {
 					Hackathon
 				</a> */}
 				<a
-					href="https://ethboston.typeform.com/tickets"
+					href="https://ethboston.typeform.com/waitlist2024"
 					target="_blank"
 					rel="noreferrer"
 					className="mr-4 uppercase text-blue-1 font-semibold"
