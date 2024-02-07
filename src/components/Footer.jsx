@@ -146,7 +146,7 @@ export default function Footer() {
 				</div>
 			</div>
 			<div className="mt-4 pt-6 text-white border-t border-gray-800 flex flex-col md:flex-row justify-center items-center">
-				<div>© 2023 ETH Boston</div>
+				<div>© 2024 ETH Boston</div>
 			</div>
 		</footer>
 	);
