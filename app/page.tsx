@@ -2,6 +2,7 @@ import SpeakerCard from "./components/SpeakerCard";
 import Footer from "./components/Footer";
 import TitleInfo from "./components/TitleInfo";
 import {Metadata} from "next"
+import React from "react";
 
 export async function generateMetadata(): Promise<Metadata> {
 
