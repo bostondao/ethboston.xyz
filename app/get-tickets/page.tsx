@@ -1,10 +1,13 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-export default function page() {
+export default function Page() {
   // calculate screen height
-  const screenHeight = window.innerHeight - 48;
+  const [screenHeight, setScreenHeight] = useState(0);
+  useEffect(() => {
+    setScreenHeight(window.innerHeight - 48);
+  }, []);
   return (
     <div className="overflow pt-12">
       <iframe
