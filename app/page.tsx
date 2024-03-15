@@ -47,17 +47,6 @@ export default function Page() {
       <div className="pt-0 sm:pt-4">
         <TitleInfo />
       </div>
-      {/* Sponsors */}
-      <section className="flex justify-center">
-        <article>
-          <Image
-            src="/sponsor_banner.png"
-            alt="Sponsors list"
-            width={500}
-            height={500}
-          />
-        </article>
-      </section>
       {/* Date and location */}
       <section className="flex justify-center mx-2 my-5">
         <div className="flex items-center text-sm sm:text-2xl rounded-full border justify-between text-blue-1 w-full sm:w-3/4 lg:w-2/3">
@@ -81,29 +70,28 @@ export default function Page() {
           </article>
         </div>
       </section>
-      {/* Socials */}
-      <section className="flex justify-center z-20">
-        <article className="flex flex-col sm:flex-row items-center justify-around pt-5 w-full sm:w-2/3 z-20">
-          {/* Twitter */}
-          <a
-            href="https://twitter.com/ETHBoston"
+      {/* CTAs */}
+      <section className="flex flex-col sm:flex-row justify-center text-2xl py-5">
+        <Link
+          href="get-tickets"
+          className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2"
+        >
+          GET TICKETS
+        </Link>
+        {/* <a
+            href="https://ethboston.typeform.com/speakerproposal"
             target="_blank"
             rel="noreferrer"
-            className="flex items-center justify-center text-xl rounded-full border px-4 py-2 mb-4 hover:bg-sky-100"
-          >
-            Follow us on
-            <img src="./twitter.svg" alt="Twitter icon" className="ml-2" />
+            className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2 my-4 sm:my-0">
+            SPEAK
           </a>
-        </article>
-      </section>
-
-      <section>
-        <article className="text-center text-blue-1 italic">
-          Interested in sponsoring the event? Email{" "}
-          <a href="mailto:sponsor@ethboston.xyz" className="underline ">
-            sponsor@ethboston.xyz
-          </a>
-        </article>
+          <a
+            href="https://ethboston.typeform.com/volunteer"
+            target="_blank"
+            rel="noreferrer"
+            className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
+            VOLUNTEER
+          </a> */}
       </section>
       {/* Description */}
       <section className="flex justify-center text-blue-1 text-lg">
@@ -125,28 +113,40 @@ export default function Page() {
           </p>
         </article>
       </section>
-      {/* CTAs */}
-      <section className="flex flex-col sm:flex-row justify-center text-2xl pb-5">
-        <Link
-          href="get-tickets"
-          className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2"
-        >
-          GET TICKETS
-        </Link>
-        {/* <a
-            href="https://ethboston.typeform.com/speakerproposal"
-            target="_blank"
-            rel="noreferrer"
-            className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2 my-4 sm:my-0">
-            SPEAK
-          </a>
+      {/* Socials */}
+      <section className="flex justify-center z-20">
+        <article className="flex flex-col sm:flex-row items-center justify-around w-full sm:w-2/3 z-20">
+          {/* Twitter */}
           <a
-            href="https://ethboston.typeform.com/volunteer"
+            href="https://twitter.com/ETHBoston"
             target="_blank"
             rel="noreferrer"
-            className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2">
-            VOLUNTEER
-          </a> */}
+            className="flex items-center justify-center text-xl rounded-full border px-4 py-2 mb-4 hover:bg-sky-100"
+          >
+            Follow us on
+            <img src="./twitter.svg" alt="Twitter icon" className="ml-2" />
+          </a>
+        </article>
+      </section>
+
+      <section className="py-5">
+        <article className="text-center text-blue-1 italic">
+          Interested in sponsoring the event? Email{" "}
+          <a href="mailto:sponsor@ethboston.xyz" className="underline ">
+            sponsor@ethboston.xyz
+          </a>
+        </article>
+      </section>
+      {/* Sponsors */}
+      <section className="flex justify-center">
+        <article>
+          <Image
+            src="/sponsor_banner.png"
+            alt="Sponsors list"
+            width={500}
+            height={500}
+          />
+        </article>
       </section>
       {/* schedule
         <section id="schedule">
