@@ -113,22 +113,8 @@ export default function Page() {
           </p>
         </article>
       </section>
-      {/* Socials */}
-      <section className="flex justify-center z-20">
-        <article className="flex flex-col sm:flex-row items-center justify-around w-full sm:w-2/3 z-20">
-          {/* Twitter */}
-          <a
-            href="https://twitter.com/ETHBoston"
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center justify-center text-xl rounded-full border px-4 py-2 mb-4 hover:bg-sky-100"
-          >
-            Follow us on
-            <img src="./twitter.svg" alt="Twitter icon" className="ml-2" />
-          </a>
-        </article>
-      </section>
 
+      {/* Sponsors */}
       <section className="py-5">
         <article className="text-center text-blue-1 italic">
           Interested in sponsoring the event? Email{" "}
@@ -137,15 +123,28 @@ export default function Page() {
           </a>
         </article>
       </section>
-      {/* Sponsors */}
-      <section className="flex justify-center">
+      <section className="flex justify-center pb-10">
         <article>
-          <Image
-            src="/sponsor_banner.png"
+          {/* make the Next Image above full screen */}
+          <img
+            src="sponsor_banner.png"
             alt="Sponsors list"
-            width={500}
-            height={500}
+            className="sm:border border-blue-1 sm:shadow-md rounded-xl"
           />
+        </article>
+      </section>
+      {/* Socials */}
+      <section className="flex justify-center z-20">
+        <article className="flex flex-col sm:flex-row items-center justify-around w-full sm:w-2/3 z-20 mb-10">
+          <a
+            href="https://twitter.com/ETHBoston"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center justify-center text-xl rounded-full border px-4 py-2 hover:bg-sky-100"
+          >
+            Follow us on
+            <img src="./twitter.svg" alt="Twitter icon" className="ml-2-1" />
+          </a>
         </article>
       </section>
       {/* schedule
