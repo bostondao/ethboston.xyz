@@ -93,6 +93,20 @@ export default function Page() {
             VOLUNTEER
           </a> */}
       </section>
+      {/* Socials */}
+      <section className="flex justify-center z-20">
+        <article className="flex flex-col sm:flex-row items-center justify-around w-full sm:w-2/3 z-20">
+          <a
+            href="https://twitter.com/ETHBoston"
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center justify-center text-xl rounded-full border px-4 py-2 hover:bg-sky-100"
+          >
+            Follow us on
+            <img src="./twitter.svg" alt="Twitter icon" className="ml-2-1" />
+          </a>
+        </article>
+      </section>
       {/* Description */}
       <section className="flex justify-center text-blue-1 text-lg">
         <article className="p-5 w-full sm:w-3/4 lg:w-2/3">
@@ -115,7 +129,7 @@ export default function Page() {
       </section>
 
       {/* Sponsors */}
-      <section className="py-5">
+      <section className="pb-5">
         <article className="text-center text-blue-1 italic">
           Interested in sponsoring the event? Email{" "}
           <a href="mailto:sponsor@ethboston.xyz" className="underline ">
@@ -131,20 +145,6 @@ export default function Page() {
             alt="Sponsors list"
             className="sm:border border-blue-1 sm:shadow-md rounded-xl"
           />
-        </article>
-      </section>
-      {/* Socials */}
-      <section className="flex justify-center z-20">
-        <article className="flex flex-col sm:flex-row items-center justify-around w-full sm:w-2/3 z-20 mb-10">
-          <a
-            href="https://twitter.com/ETHBoston"
-            target="_blank"
-            rel="noreferrer"
-            className="flex items-center justify-center text-xl rounded-full border px-4 py-2 hover:bg-sky-100"
-          >
-            Follow us on
-            <img src="./twitter.svg" alt="Twitter icon" className="ml-2-1" />
-          </a>
         </article>
       </section>
       {/* schedule
