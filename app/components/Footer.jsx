@@ -1,5 +1,6 @@
-"use client"
+"use client";
 import React from "react";
+import Link from "next/link";
 
 export default function Footer() {
   function scrollTo(id) {
@@ -61,12 +62,12 @@ export default function Footer() {
               </button>
             </li>
             <li>
-              <a
-                href="https://ethboston.typeform.com/tickets"
+              <Link
+                href="/get-tickets"
                 className="inline-block py-2 pl-3 pr-5 text-gray-200 hover:text-white no-underline"
               >
                 Tickets
-              </a>
+              </Link>
             </li>
           </ul>
           <ul className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full">
