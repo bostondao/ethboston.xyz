@@ -137,13 +137,13 @@ export default function Page() {
           </a>
         </article>
       </section>
-      <section className="flex justify-center pb-10">
-        <article>
+      <section className="w-full pb-10">
+        <article className="w-full">
           {/* make the Next Image above full screen */}
           <img
             src="sponsor_banner.png"
             alt="Sponsors list"
-            className="sm:border border-blue-1 sm:shadow-md rounded-xl"
+            className="w-full"
           />
         </article>
       </section>
