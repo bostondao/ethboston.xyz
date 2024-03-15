@@ -74,7 +74,7 @@ export default function Page() {
       <section className="flex flex-col sm:flex-row justify-center text-2xl py-5">
         <Link
           href="get-tickets"
-          className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2"
+          className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2 shadow-lg"
         >
           GET TICKETS
         </Link>
