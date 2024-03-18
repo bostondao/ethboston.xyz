@@ -12,13 +12,13 @@ export async function generateMetadata(): Promise<Metadata> {
     "fc:frame": "vNext",
     "fc:frame:image": imageUrl,
 
-    "fc:frame:button:1": `View Site`,
+    "fc:frame:button:1": `Details`,
     "fc:frame:button:1:action": "link",
     "fc:frame:button:1:target": `https://ethboston.xyz`,
 
-    "fc:frame:button:2": `Join Waitlist`,
+    "fc:frame:button:2": `Get Tickets`,
     "fc:frame:button:2:action": "link",
-    "fc:frame:button:2:target": `https://ethboston.typeform.com/waitlist2024`,
+    "fc:frame:button:2:target": `https://ethboston.xyz/get-tickets`,
   };
 
   return {
