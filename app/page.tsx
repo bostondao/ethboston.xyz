@@ -7,7 +7,7 @@ import Link from "next/link";
 import Speakers from "./components/Speakers";
 
 export async function generateMetadata(): Promise<Metadata> {
-  const imageUrl = `${process.env["HOST"]}/og-image.png`;
+  const imageUrl = `${process.env["HOST"]}/og-image.webp`;
   const fcMetadata: Record<string, string> = {
     "fc:frame": "vNext",
     "fc:frame:image": imageUrl,

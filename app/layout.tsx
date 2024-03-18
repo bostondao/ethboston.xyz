@@ -6,10 +6,35 @@ import Header from "./components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "ETHBoston 2024",
-  description: "The official site of ETHBoston.",
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const imageUrl = `${process.env["HOST"]}/og-image.webp`;
+  const fcMetadata: Record<string, string> = {
+    "fc:frame": "vNext",
+    "fc:frame:image": imageUrl,
+
+    "fc:frame:button:1": `Details`,
+    "fc:frame:button:1:action": "link",
+    "fc:frame:button:1:target": `https://ethboston.xyz`,
+
+    "fc:frame:button:2": `Get Tickets`,
+    "fc:frame:button:2:action": "link",
+    "fc:frame:button:2:target": `https://ethboston.xyz/get-tickets`,
+  };
+
+  return {
+    title: "ETHBoston 2024",
+    openGraph: {
+      title: `ETHBoston 2024`,
+      description: `ETHBoston and The Boston DAO are proud to present ETHBoston 2024`,
+      images: [{ url: imageUrl }],
+    },
+    other: {
+      ...fcMetadata,
+    },
+    metadataBase: new URL(process.env["HOST"] || ""),
+  };
+}
+
 
 export default function RootLayout({
   children,
