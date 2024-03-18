@@ -1,3 +1,99 @@
 {
-  "speakers": []
+    "speakers": [
+        {
+            "name": "Mike Calvanese",
+            "src": "Mike Calvanese.jpg",
+            "company": "Co-Founder / CEO @ Brink"
+        },
+        {
+            "name": "Mike Neuder",
+            "src": "Mike Neuder.png",
+            "company": "researcher @ ethereum foundation"
+        },
+        {
+            "name": "John Hilliard",
+            "src": "John Hilliard.jpg",
+            "company": "Director Engineering - Dev Tools @ Polygon Labs"
+        },
+        {
+            "name": "Justin Leroux",
+            "src": "Justin Leroux.jpg",
+            "company": "CEO @ GridPlus"
+        },
+        {
+            "name": "Zack Pokorny",
+            "src": "Zack Pokorny.png",
+            "company": "Research Analyst @ Galaxy"
+        },
+        {
+            "name": "Noah Marconi",
+            "src": "Noah Marconi.jpg",
+            "company": "Head of Security Reviews @ Spearbit"
+        },
+        {
+            "name": "Jack Chong",
+            "src": "Jack Chong.jpg",
+            "company": "Cofounder @ Checker"
+        },
+        {
+            "name": "Joshua Lim",
+            "src": "Joshua Lim.jpg",
+            "company": "CEO @ Arbelos Markets"
+        },
+        {
+            "name": "Chris Whinfrey",
+            "src": "Chris Whinfrey.png",
+            "company": "Cofounder @ Hop Protocol"
+        },
+        {
+            "name": "David Vorick",
+            "src": "David Vorick.jpg",
+            "company": "CEO @ Glow International"
+        },
+        {
+            "name": "Kevin Chan",
+            "src": "Kevin Chan.jpg",
+            "company": "Vice President @ BlockTower Capital"
+        },
+        {
+            "name": "Spencer Brody",
+            "src": "Spencer Brody.jpg",
+            "company": "Protocol Architect @ Ceramic"
+        },
+        {
+            "name": "Robin Salen",
+            "src": "Robin Salen.jpg",
+            "company": "Lead Cryptographer @ Toposware, Inc."
+        },
+        {
+            "name": "Cameron Armstrong",
+            "src": "Cameron Armstrong.jpg",
+            "company": "Founder @ Seemore.tv"
+        },
+        {
+            "name": "Gus Coldebella",
+            "src": "Gus Coldebella.jpg",
+            "company": "Partner and Head of Policy @ True Ventures"
+        },
+        {
+            "name": "Guillaume Lambert",
+            "src": "Guillaume Lambert.jpg",
+            "company": "CEO @ Panoptic"
+        },
+        {
+            "name": "Mari Tomunen ",
+            "src": "Mari Tomunen.jpg",
+            "company": "Regulatory Counsel  @ Paxos"
+        },
+        {
+            "name": "John McNiff",
+            "src": "John McNiff.jpg",
+            "company": "Co-founder @ Theia"
+        },
+        {
+            "name": "Jake Lynch",
+            "src": "Jake Lynch.jpg",
+            "company": "Investing @ L1D"
+        }
+    ]
 }
