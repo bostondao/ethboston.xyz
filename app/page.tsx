@@ -4,6 +4,7 @@ import { Metadata } from "next";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Speakers from "./components/Speakers";
 
 export async function generateMetadata(): Promise<Metadata> {
   const imageUrl = `${process.env["HOST"]}/og-image.png`;
@@ -112,8 +113,7 @@ export default function Page() {
         <article className="p-5 w-full sm:w-3/4 lg:w-2/3">
           <p className="mb-4">
             ETHBoston and The Boston DAO are proud to present ETHBoston 2024 at
-            Boston University April 26-28 2024. We are excited to return to
-            Boston University for this conference. The in-person conference will
+            Boston University April 26-28 2024. The in-person conference will
             feature two stages of speakers and panelists, technology specific
             workshops, networking events, and a hackathon.
           </p>
@@ -152,6 +152,9 @@ export default function Page() {
           <img src="saturday.webp" alt="Saturday schedule" />
           <img src="sunday.webp" alt="Saturday schedule" />
         </section> */}
+
+        {/* Speakers */}
+        <Speakers title="Speakers" speakerList={require(`./speakers-2024.json`)} />
       <Footer />
     </main>
   );
