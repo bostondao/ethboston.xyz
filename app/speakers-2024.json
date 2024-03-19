@@ -94,6 +94,16 @@
             "name": "Jake Lynch",
             "src": "Jake Lynch.jpg",
             "company": "Investing @ L1D"
+        },
+        {
+            "name": "Will Sheehan",
+            "src": "Will Sheehan.jpg",
+            "company": "CEO @ parsec"
+        },
+        {
+            "name": "Chris Lehman",
+            "src": "Chris Lehman.jpg",
+            "company": "Co-Founder, Policy Architect @ Groma"
         }
     ]
 }
