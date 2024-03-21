@@ -56,8 +56,12 @@ export default function Page() {
               <img src="./calendar.svg" alt="Dates" />
             </span>
             <div className="flex flex-col">
-              <span className="mx-2 pr-2 font-semibold">Conference: April 27 - 28, 2024</span>
-              <span className="mx-2 pr-2 font-semibold">Hackathon: April 26 - 28, 2024</span>
+              <span className="mx-2 pr-2 font-semibold">
+                Conference: April 27 - 28, 2024
+              </span>
+              <span className="mx-2 pr-2 font-semibold">
+                Hackathon: April 26 - 28, 2024
+              </span>
             </div>
           </article>
           <article className="flex items-center justify-center">
@@ -82,8 +86,12 @@ export default function Page() {
               <img src="./calendar.svg" alt="Dates" />
             </span>
             <div className="flex flex-col">
-              <span className="mx-2 pr-2 font-semibold">Conference: April 27 - 28, 2024</span>
-              <span className="mx-2 pr-2 font-semibold">Hackathon: April 26 - 28, 2024</span>
+              <span className="mx-2 pr-2 font-semibold">
+                Conference: April 27 - 28, 2024
+              </span>
+              <span className="mx-2 pr-2 font-semibold">
+                Hackathon: April 26 - 28, 2024
+              </span>
             </div>
           </article>
           <article className="flex items-center mt-2">
@@ -182,8 +190,17 @@ export default function Page() {
           <img src="sunday.webp" alt="Saturday schedule" />
         </section> */}
 
-        {/* Speakers */}
-        <Speakers title="Speakers" speakerList={require(`./speakers-2024.json`)} />
+      {/* Speakers */}
+      <Speakers
+        title="Speakers"
+        speakerList={require(`./speakers-2024.json`)}
+      />
+      <h2
+        className="italic text-center text-4xl font-extralight mb-20 text-blue-1"
+        style={{ textShadow: "0 1.2px 1.2px rgba(0, 0, 0, 0.8)" }}
+      >
+        More speakers announcing soon!
+      </h2>
       <Footer />
     </main>
   );
