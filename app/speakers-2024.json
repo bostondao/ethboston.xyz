@@ -105,5 +105,15 @@
             "src": "Chris Lehman.jpg",
             "company": "Co-Founder, Policy Architect @ Groma"
         }
+        {
+            "name": "Ryan M Roy",
+            "src": "Ryan Roy.png",
+            "company": "Senior Managing Director and COO @ Ankura Trust Company"
+        },
+        {
+            "name": "Colfax Selby",
+            "src": "Colfax Selby.jpg",
+            "company": "Software Engineer @ Privy"
+        }
     ]
 }
