@@ -48,26 +48,55 @@ export default function Page() {
       <div className="pt-0 sm:pt-4">
         <TitleInfo />
       </div>
-      {/* Date and location */}
-      <section className="flex justify-center mx-2 my-5">
-        <div className="flex items-center text-sm sm:text-2xl rounded-full border justify-between text-blue-1 w-full sm:w-3/4 lg:w-2/3">
+      {/* Desktop Date and location */}
+      <section className="hidden sm:flex justify-center mx-2 my-5">
+        <div className="flex items-center text-lg rounded-full border justify-between text-blue-1 w-full sm:w-3/4 lg:w-2/3">
           <article className="flex items-center justify-center">
-            <span className="rounded-full border p-2 m-1 bg-blue-2">
+            <span className="rounded-full border p-4 m-1 bg-blue-2">
               <img src="./calendar.svg" alt="Dates" />
             </span>
-            <span className="mx-2 pr-2 font-semibold">April 26-28 2024</span>
+            <div className="flex flex-col">
+              <span className="mx-2 pr-2 font-semibold">Conference: April 27 - 28, 2024</span>
+              <span className="mx-2 pr-2 font-semibold">Hackathon: April 26 - 28, 2024</span>
+            </div>
           </article>
           <article className="flex items-center justify-center">
             <a
               href="https://maps.app.goo.gl/eKjAFpVinXYtTCV89"
               target="_blank"
-              className="mx-2 pl-2 font-semibold text-right"
+              className="mx-2 pl-2 font-semibold text-right underline"
             >
               595 Commonwealth Avenue, Boston, MA
             </a>
-            <span className="rounded-full border p-2 m-1 bg-blue-2">
+            <span className="rounded-full border p-4 m-1 bg-blue-2">
               <img src="./map-pin.svg" alt="Dates" />
             </span>
+          </article>
+        </div>
+      </section>
+      {/* Mobile Date and location */}
+      <section className="flex sm:hidden justify-center mx-2 my-5">
+        <div className="flex flex-col text-blue-1 w-full">
+          <article className="flex items-center w-full">
+            <span className="rounded-full border p-3 m-1 bg-blue-2">
+              <img src="./calendar.svg" alt="Dates" />
+            </span>
+            <div className="flex flex-col">
+              <span className="mx-2 pr-2 font-semibold">Conference: April 27 - 28, 2024</span>
+              <span className="mx-2 pr-2 font-semibold">Hackathon: April 26 - 28, 2024</span>
+            </div>
+          </article>
+          <article className="flex items-center mt-2">
+            <span className="rounded-full border p-3 m-1 bg-blue-2">
+              <img src="./map-pin.svg" alt="Dates" />
+            </span>
+            <a
+              href="https://maps.app.goo.gl/eKjAFpVinXYtTCV89"
+              target="_blank"
+              className="mx-2 pl-2 font-semibold underline"
+            >
+              595 Commonwealth Avenue, Boston, MA
+            </a>
           </article>
         </div>
       </section>
