@@ -114,6 +114,11 @@
             "name": "Colfax Selby",
             "src": "Colfax Selby.jpg",
             "company": "Software Engineer @ Privy"
+        },
+        {
+            "name": "Christine Kim",
+            "src": "Christine Kim.jpg",
+            "company": "VP of Research @ Galaxy"
         }
     ]
 }
