@@ -119,6 +119,21 @@
             "name": "Christine Kim",
             "src": "Christine Kim.jpg",
             "company": "VP of Research @ Galaxy"
+        },
+        {
+            "name": "Seth Priebatsch",
+            "src": "Seth Priebatsch.jpg",
+            "company": "President @ Groma"
+        },
+        {
+            "name": "Jon Geenty",
+            "src": "Jon Geenty.jpg",
+            "company": "Partner @ Accomplice Blockchain"
+        },
+        {
+            "name": "Jimmy Zheng",
+            "src": "Jimmy Zheng.jpg",
+            "company": "COO @ Artemis Analytics"
         }
     ]
 }
