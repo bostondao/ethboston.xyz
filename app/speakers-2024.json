@@ -26,9 +26,39 @@
             "company": "Research Analyst @ Galaxy"
         },
         {
+            "name": "Hudson Jameson",
+            "src": "Hudson Jameson.jpg",
+            "company": "VP - Community @ Polygon Labs"
+        },
+        {
+            "name": "Pei Chen",
+            "src": "Pei Chen.png",
+            "company": "Head of Ecosystem @ Sei Foundation"
+        },
+        {
             "name": "Noah Marconi",
             "src": "Noah Marconi.jpg",
             "company": "Head of Security Reviews @ Spearbit"
+        },
+        {
+            "name": "Dan Matuszewski",
+            "src": "Dan Matuszewski.png",
+            "company": "Intern @ CMS"
+        },
+        {
+            "name": "Anders Brownworth",
+            "src": "Anders Brownworth.png",
+            "company": "Head of Research and Development @ Radius"
+        },
+        {
+            "name": "CJ Carr",
+            "src": "CJ Carr.png",
+            "company": "ai music research @ DADABOTS & StabilityAI"
+        },
+        {
+            "name": "Ian Cain",
+            "src": "Ian Cain.",
+            "company": "Candidate for U.S. Senate"
         },
         {
             "name": "Jack Chong",
@@ -134,6 +164,31 @@
             "name": "Jimmy Zheng",
             "src": "Jimmy Zheng.jpg",
             "company": "COO @ Artemis Analytics"
+        },
+        {
+            "name": "Alex Webbs",
+            "src": "Alex Webbs.jpg",
+            "company": "The Boston DAO"
+        },
+        {
+            "name": "Ventali Tan",
+            "src": "Ventali Tan.jpeg",
+            "company": "Co-founder @ Lita"
+        },
+        {
+            "name": "Maxwell Kanter",
+            "src": "Maxwell Kanter.png",
+            "company": "Governance Onboarding Lead @ Optimism Unlimited"
+        },
+        {
+            "name": "Mark Flanagan",
+            "src": "Mark Flanagan.JPG",
+            "company": "Digital Asset Engineer @ Fidelity (FCAT)"
+        },
+        {
+            "name": "Andrew Hill",
+            "src": "Andrew Hill.jpg",
+            "company": "CEO @ Textile / Tableland"
         }
     ]
 }
