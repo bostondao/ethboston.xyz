@@ -79,6 +79,13 @@ export default function Header() {
               Previous Speakers
             </Link>
             <Link
+              href="https://ethboston2024.notion.site/Job-Board-c2d0b0a5aa5246b7abacd59cda438074"
+              target="_blank"
+              className="uppercase text-blue-1 font-semibold hover:text-blue-2"
+            >
+              Job Board
+            </Link>
+            <Link
               href="get-tickets"
               className="uppercase text-blue-1 font-semibold hover:text-blue-2"
             >
@@ -148,6 +155,13 @@ export default function Header() {
               onClick={() => setIsMenuOpen(false)}
             >
               Previous Speakers
+            </Link>
+            <Link
+              href="https://ethboston2024.notion.site/Job-Board-c2d0b0a5aa5246b7abacd59cda438074"
+              target="_blank"
+              className="block text-blue-1 font-semibold mb-2 hover:text-blue-2"
+            >
+              Job Board
             </Link>
             <Link
               href="/get-tickets"
