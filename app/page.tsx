@@ -116,6 +116,20 @@ export default function Page() {
         >
           GET TICKETS
         </Link>
+        <Link
+          href="https://ethboston2024.notion.site/e3dce7c198fd48a79621425a6b1bdf99?v=8e5ec213046d4962bdba229345ca9336"
+          target="_blank"
+          className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2 shadow-lg my-5 sm:my-0"
+        >
+          SATURDAY SCHEDULE
+        </Link>
+        <Link
+          href="https://ethboston2024.notion.site/e3dce7c198fd48a79621425a6b1bdf99?v=91d7cdea527c471d91108c230e8420d8"
+          target="_blank"
+          className="inline-block bg-blue-3 text-white font-semibold mx-6 text-center border-2 border-red-500 rounded-lg px-4 py-2 shadow-lg"
+        >
+          SUNDAY SCHEDULE
+        </Link>
         {/* <a
             href="https://ethboston.typeform.com/speakerproposal"
             target="_blank"
@@ -132,7 +146,7 @@ export default function Page() {
           </a> */}
       </section>
       {/* Socials */}
-      <section className="flex justify-center z-20">
+      <section className="flex justify-center z-20 my-5">
         <article className="flex flex-col sm:flex-row items-center justify-around w-full sm:w-2/3 z-20">
           <a
             href="https://twitter.com/ETHBoston"
@@ -141,7 +155,7 @@ export default function Page() {
             className="flex items-center justify-center text-xl rounded-full border px-4 py-2 hover:bg-sky-100"
           >
             Follow us on
-            <img src="./twitter.svg" alt="Twitter icon" className="ml-2-1" />
+            <img src="./twitter.svg" alt="Twitter icon" className="ml-2" />
           </a>
         </article>
       </section>
