@@ -40,10 +40,90 @@
             "src": "Noah Marconi.jpg",
             "company": "Head of Security Reviews @ Spearbit"
         },
+    {
+            "name": "Cynthia Lo Bessette",
+            "src": "Cynthia Lo Bessette.jpg",
+            "company": "Head of Digital Assets @ Fidelity"
+        },
         {
-            "name": "Dan Matuszewski",
-            "src": "Daniel Matuszewski.png",
-            "company": "Intern @ CMS"
+            "name": "Hadas Zeilberger",
+            "src": "Hadas Zeilberger.jpeg",
+            "company": "Cryptographic Researcher @ Lita"
+        },
+        {
+            "name": "James Prestwich",
+            "src": "James Prestwich.jpeg",
+            "company": ""
+        },
+        {
+            "name": "Niraj Pant",
+            "src": "Niraj Pant.jpg",
+            "company": "Cofounder @ Ritual"
+        },
+        {
+            "name": "Nick Emmons",
+            "src": "Nick Emmons.jpg",
+            "company": "Cofounder @ Allora Network"
+        },
+        {
+            "name": "Barry Plunkett",
+            "src": "Barry Plunkett.png",
+            "company": "Cofounder @ Skip"
+        },
+        {
+            "name": "Daniel Fischmann",
+            "src": "Daniel Fischmann.jpg",
+            "company": "Research Lead @ L1D"
+        },
+        {
+            "name": "Mark Phillips",
+            "src": "Mark Phillips.png",
+            "company": "Cofounder @ Steakhouse Financial"
+        },
+        {
+            "name": "Sean Judge",
+            "src": "Sean Judge.jpg",
+            "company": "General Partner @ Castle Island Ventures"
+        },
+        {
+            "name": "Jessica Van Meir",
+            "src": "Jessica Van Meir.webp",
+            "company": "Cofounder & COO @ MintStars"
+        },
+        {
+            "name": "Arjun Hassard",
+            "src": "Arjun Hassard.jpeg",
+            "company": "TACo Project Lead @ Threshold"
+        },
+        {
+            "name": "Corn",
+            "src": "Corn.jpg",
+            "company": "Contributor @ Yearn"
+        },
+        {
+            "name": "Garett Jones",
+            "src": "Garett Jones.jpg",
+            "company": "Chief Economist @ Bluechip"
+        },
+        {
+            "name": "Chandler Otterbein",
+            "src": "Chandler Otterbein.jpg",
+            "company": "President @ NEU Blockchain"
+        },
+        {
+            "name": "Mark Cianci",
+            "src": "Mark Cianci.jpeg",
+            "company": "Counsel @ Ropes & Gray LLP"
+        },
+        {
+            "name": "Barbara Widholm",
+            "src": "Barbara Widholm.jpg",
+            "company": "Vice President @ State Street"
+        },
+        {
+            "name": "Giuseppe Stuto",
+            "src": "Giuseppe Stuto.JPG",
+            "company": "Managing Partner @ 186 Ventures"
         },
         {
             "name": "Anders Brownworth",
@@ -69,11 +149,6 @@
             "name": "Joshua Lim",
             "src": "Joshua Lim.png",
             "company": "CEO @ Arbelos Markets"
-        },
-        {
-            "name": "Chris Whinfrey",
-            "src": "Chris Whinfrey.png",
-            "company": "Cofounder @ Hop Protocol"
         },
         {
             "name": "David Vorick",
@@ -166,11 +241,6 @@
             "company": "The Boston DAO"
         },
         {
-            "name": "Ventali Tan",
-            "src": "Ventali Tan.jpeg",
-            "company": "Co-founder @ Lita"
-        },
-        {
             "name": "Maxwell Kanter",
             "src": "Maxwell Kanter.png",
             "company": "Governance Onboarding Lead @ Optimism Unlimited"
@@ -184,6 +254,16 @@
             "name": "Andrew Hill",
             "src": "Andrew Hill.jpg",
             "company": "CEO @ Textile / Tableland"
+        },
+        {
+            "name": "George Hu",
+            "src": "George Hu.jpg",
+            "company": "Founder & CEO @ SupDop"
+        },
+        {
+            "name": "William Glynn",
+            "src": "William Glynn.jpeg",
+            "company": "Cofounder @ Sidepit, Marketing Junior at Nervos"
         }
     ]
 }
