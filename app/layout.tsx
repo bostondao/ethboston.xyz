@@ -22,10 +22,10 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 
   return {
-    title: "ETHBoston 2024",
+    title: "ETHBoston 2025",
     openGraph: {
-      title: `ETHBoston 2024`,
-      description: `ETHBoston and The Boston DAO are proud to present ETHBoston 2024`,
+      title: `ETHBoston 2025`,
+      description: `ETHBoston and The Boston DAO are proud to present ETHBoston 2025`,
       images: [{ url: imageUrl }],
     },
     other: {
