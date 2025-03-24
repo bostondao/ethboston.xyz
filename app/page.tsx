@@ -22,10 +22,10 @@ export async function generateMetadata(): Promise<Metadata> {
   };
 
   return {
-    title: "ETHBoston 2024",
+    title: "ETHBoston 2025",
     openGraph: {
-      title: `ETHBoston 2024`,
-      description: `ETHBoston and The Boston DAO are proud to present ETHBoston 2024`,
+      title: `ETHBoston 2025`,
+      description: `ETHBoston and The Boston DAO are proud to present ETHBoston 2025`,
       images: [{ url: imageUrl }],
     },
     other: {
@@ -57,10 +57,10 @@ export default function Page() {
             </span>
             <div className="flex flex-col">
               <span className="mx-2 pr-2 font-semibold">
-                Conference: April 27 - 28, 2024
+                Conference: September 2025
               </span>
               <span className="mx-2 pr-2 font-semibold">
-                Hackathon: April 26 - 28, 2024
+                Hackathon: TBD
               </span>
             </div>
           </article>
@@ -70,7 +70,7 @@ export default function Page() {
               target="_blank"
               className="mx-2 pl-2 font-semibold text-right underline"
             >
-              595 Commonwealth Avenue, Boston, MA
+              MIT Media Lab
             </a>
             <span className="rounded-full border p-4 m-1 bg-blue-2">
               <img src="./map-pin.svg" alt="Dates" />
@@ -87,10 +87,10 @@ export default function Page() {
             </span>
             <div className="flex flex-col">
               <span className="mx-2 pr-2 font-semibold">
-                Conference: April 27 - 28, 2024
+                Conference: September 2025
               </span>
               <span className="mx-2 pr-2 font-semibold">
-                Hackathon: April 26 - 28, 2024
+                Hackathon: September 2025
               </span>
             </div>
           </article>
@@ -103,7 +103,7 @@ export default function Page() {
               target="_blank"
               className="mx-2 pl-2 font-semibold underline"
             >
-              595 Commonwealth Avenue, Boston, MA
+              MIT Media Lab
             </a>
           </article>
         </div>
@@ -163,10 +163,8 @@ export default function Page() {
       <section className="flex justify-center text-blue-1 text-lg">
         <article className="p-5 w-full sm:w-3/4 lg:w-2/3">
           <p className="mb-4">
-            ETHBoston and The Boston DAO are proud to present ETHBoston 2024 at
-            Boston University April 26-28 2024. The in-person conference will
-            feature two stages of speakers and panelists, technology specific
-            workshops, networking events, and a hackathon.
+            ETHBoston and The Boston DAO are proud to present ETHBoston 2025 at
+            the MIT Media Lab on Saturday September 13, 2025.
           </p>
           <p className="mb-4">
             ETHBoston is an opportunity to support, grow, and foster the
@@ -206,7 +204,7 @@ export default function Page() {
 
       {/* Speakers */}
       <Speakers
-        title="Speakers"
+        title="Last Years Speakers"
         speakerList={require(`./speakers-2024.json`)}
       />
       <h2
