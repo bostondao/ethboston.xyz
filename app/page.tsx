@@ -57,7 +57,7 @@ export default function Page() {
             </span>
             <div className="flex flex-col">
               <span className="mx-2 pr-2 font-semibold">
-                Conference: September 2025
+                Conference: September 12, 2025
               </span>
               <span className="mx-2 pr-2 font-semibold">
                 Hackathon: TBD
@@ -87,10 +87,10 @@ export default function Page() {
             </span>
             <div className="flex flex-col">
               <span className="mx-2 pr-2 font-semibold">
-                Conference: September 2025
+                Conference: September 12, 2025
               </span>
               <span className="mx-2 pr-2 font-semibold">
-                Hackathon: September 2025
+                Hackathon: NaN
               </span>
             </div>
           </article>
