@@ -11,7 +11,7 @@ export default function Page() {
   return (
     <div className="overflow pt-12">
       <iframe
-        src="https://lu.ma/embed-checkout/evt-ACAGyr9rAg1TZNF"
+        src="https://lu.ma/embed/event/evt-9gk4w2xwVZo7XBT/simple"
         width="100%"
         height={screenHeight + `px`}
         style={{ border: "1px solid #bfcbda88", borderRadius: "4px" }}
